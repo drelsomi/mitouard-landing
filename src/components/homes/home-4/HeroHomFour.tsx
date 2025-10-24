@@ -1,0 +1,45 @@
+"use client";
+
+import { jarallax } from "jarallax";
+import { useEffect, useRef } from "react";
+
+export default function HeroHomFour() {
+
+  const jarallaxRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (jarallaxRef.current) {
+      jarallax(jarallaxRef.current, { speed: 0.6 });
+    }
+
+    return () => {
+      if (jarallaxRef.current) {
+        jarallax(jarallaxRef.current, "destroy");
+      }
+    };
+  }, []);
+
+
+  return (
+    <section ref={jarallaxRef} className="hero-section style-four jarallax" data-jarallax="{'speed': 0.6}"
+      style={{ backgroundImage: "url(/assets/img/bg-img/59.jpg)" }}>
+
+      {/* <!-- Hero Content --> */}
+      <div className="hero-content h-100 mt-0">
+        <div className="row g-4 align-items-end h-100">
+          <div className="col-12 col-md-8 col-lg-6">
+            <h2 className="mb-3 heading-chars" data-delay="0.5">Explore Master Future Intelligence</h2>
+            <p className="mb-0 heading-word" data-delay="0.6">Duis aute irure dolor in reprehenderit in voluptate
+              officia esse cillum dolore eu fugiat nulla pariatur sint occaecat cupidatat.</p>
+          </div>
+
+          <div className="col-12 col-md-4 col-lg-6">
+            <div className="text-end">
+              <img className="img-rotate360" src="/assets/img/bg-img/60.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
