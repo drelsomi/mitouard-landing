@@ -1,7 +1,5 @@
 import Count from "@/common/count";
 
- 
-
 export default function HeroHomeOne() {
   return (
     <section className="hero-section" style={{ backgroundImage: "url(/assets/img/core-img/shape6.png)" }}>

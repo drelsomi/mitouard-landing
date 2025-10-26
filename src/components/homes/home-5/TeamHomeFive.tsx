@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function TeamHomeFive() {
   return (
     <div className="team-section">
@@ -121,7 +120,7 @@ export default function TeamHomeFive() {
                 aria-selected="false">
                 {/* <!-- Team Nav --> */}
                 <div className="team-nav">
-                  <h2 className="mb-0">JAMIL RAYHAN</h2>
+                  <h2 className="mb-0">John Doe</h2>
                   <p className="mb-0">Project Manager</p>
                   <Link href="/team-details" className="btn btn-team"><i className="ti ti-arrow-up-right"></i></Link>
                 </div>

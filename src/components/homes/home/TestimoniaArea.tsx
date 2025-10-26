@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 interface Testimonial {
@@ -92,6 +93,11 @@ const testimonials: Testimonial[] = [
 ];
 
 export default function TestimoniaAreaMasonry() {
+  const [mounted, setMounted] = useState(false); 
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
     <div
       className="client-testimonial bg-secondary bg-img"
@@ -113,24 +119,26 @@ export default function TestimoniaAreaMasonry() {
       <div className="divider-sm"></div>
 
       <div className="container">
-        <ResponsiveMasonry columnsCountBreakPoints={{ 0: 1, 576: 2, 992: 3 }}>
-          <Masonry gutter="130px">
-            {testimonials.map((t) => (
-              <div key={t.id} className="filter-item client-testimonial-card" style={{ margin: "10px" }}>
-                <div className="ratings mb-2">
-                  {[...Array(t.rating)].map((_, i) => (
-                    <i key={i} className="ti ti-star-filled"></i>
-                  ))}
+        {mounted && (
+          <ResponsiveMasonry columnsCountBreakPoints={{ 0: 1, 576: 2, 992: 3 }}>
+            <Masonry gutter="130px">
+              {testimonials.map((t) => (
+                <div key={t.id} className="filter-item client-testimonial-card" style={{ margin: "10px" }}>
+                  <div className="ratings mb-2">
+                    {[...Array(t.rating)].map((_, i) => (
+                      <i key={i} className="ti ti-star-filled"></i>
+                    ))}
+                  </div>
+                  <div className="mb-4">
+                    for <h2>{t.title}</h2>
+                  </div>
+                  <p>{t.description}</p>
+                  <a href="#">{`by ${t.author}`}</a>
                 </div>
-                <div className="mb-4">
-                  for <h2>{t.title}</h2>
-                </div>
-                <p>{t.description}</p>
-                <a href="#">{`by ${t.author}`}</a>
-              </div>
-            ))}
-          </Masonry>
-        </ResponsiveMasonry>
+              ))}
+            </Masonry>
+          </ResponsiveMasonry>
+        )}
       </div>
 
       <div className="divider"></div>

@@ -1,5 +1,3 @@
-
-
 export default function HeroArea() {
   return (
     <div className="preview-hero-wrap" style={{ backgroundImage: "url(/assets/img/core-img/shape6.png)" }}>

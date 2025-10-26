@@ -1,4 +1,3 @@
- 
 "use client";
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -27,7 +26,7 @@ export default function AnimationProvider() {
         // Initialize ScrollSmoother only if it doesn't exist
         if (!ScrollSmoother.get()) {
           smoother = ScrollSmoother.create({
-            smooth: 1.35,
+            smooth: 1.75,
             effects: true,
             smoothTouch: false,
             normalizeScroll: false,
@@ -61,8 +60,7 @@ export default function AnimationProvider() {
               autoAlpha: 1,
               scrollTrigger: {
                 trigger: el,
-                start: "top 85%",
-                end: "bottom 60%",
+                start: "top 95%",
                 toggleActions: "play none none none",
               },
               stagger: 0.05,
@@ -87,8 +85,7 @@ export default function AnimationProvider() {
               autoAlpha: 1,
               scrollTrigger: {
                 trigger: el,
-                start: "top 85%",
-                end: "bottom 60%",
+                start: "top 95%",
                 toggleActions: "play none none none",
               },
               stagger: 0.1,
@@ -114,8 +111,7 @@ export default function AnimationProvider() {
               autoAlpha: 1,
               scrollTrigger: {
                 trigger: el,
-                start: "top 85%",
-                end: "bottom 60%",
+                start: "top 95%",
                 toggleActions: "play none none none",
               },
               stagger: 0.15,
@@ -139,8 +135,7 @@ export default function AnimationProvider() {
               stagger: 0.05,
               scrollTrigger: {
                 trigger: el,
-                start: "top 80%",
-                end: "top 20%",
+                start: "top 95%",
                 scrub: true,
               },
             }
@@ -159,8 +154,7 @@ export default function AnimationProvider() {
             autoAlpha: 1,
             scrollTrigger: {
               trigger: el,
-              start: "top 85%",
-              end: "bottom 60%",
+              start: "top 95%",
               toggleActions: "play none none none",
             },
             duration: 0.8,
@@ -192,20 +186,6 @@ export default function AnimationProvider() {
         });
       });
 
-      // === Scroll Images ===
-      gsap.utils.toArray<HTMLElement>(".scroll-image").forEach((img) => {
-        gsap.to(img, {
-          y: -140,
-          ease: "none",
-          scrollTrigger: {
-            trigger: img,
-            start: "top 95%",
-            end: "bottom top",
-            scrub: true,
-          },
-        });
-      });
-
       // === Image Anim Left ===
       gsap.utils.toArray<HTMLElement>(".img-anim-left").forEach((el) => {
         const delay = parseFloat(el.dataset.delay || "0");
@@ -221,8 +201,7 @@ export default function AnimationProvider() {
             delay,
             scrollTrigger: { 
               trigger: el, 
-              start: "top 85%", 
-              end: "bottom 60%",
+              start: "top 95%", 
               toggleActions: "play none none none" 
             },
           }
@@ -244,8 +223,7 @@ export default function AnimationProvider() {
             delay,
             scrollTrigger: { 
               trigger: el, 
-              start: "top 85%", 
-              end: "bottom 60%",
+              start: "top 95%", 
               toggleActions: "play none none none" 
             },
           }
@@ -267,7 +245,6 @@ export default function AnimationProvider() {
         ScrollTrigger.create({
           trigger: el,
           start: "top 95%",
-          end: "bottom top",
           scrub: true,
           onUpdate: (self) => {
             const progress = self.progress;
@@ -282,9 +259,6 @@ export default function AnimationProvider() {
         // Cleanup on unmount
         return () => window.removeEventListener("resize", resizeHandler);
       });
-
-
-      
     };
 
     // Initialize on component mount

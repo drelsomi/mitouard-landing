@@ -1,4 +1,3 @@
-
 import AnimationProvider from "@/common/AnimationProvider";
 import ScrollToTop from "@/common/ScrollToTop";
 import Iconsvg from "@/svg/Iconsvg";
@@ -10,9 +9,6 @@ interface WrapperProps {
 }
 
 const Wrapper = ({ children }: WrapperProps) => {
-
-
-
   return (
     <>
       {children}

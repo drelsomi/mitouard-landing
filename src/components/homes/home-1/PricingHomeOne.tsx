@@ -1,4 +1,3 @@
- 
 "use client";
 
 import { useState } from "react";
@@ -56,6 +55,7 @@ export default function PricingHomeOne() {
               features: [
                 true, true, true, false, false, false
               ],
+              delay: '0.2',
             },
             {
               id: 2,
@@ -66,6 +66,7 @@ export default function PricingHomeOne() {
               features: [
                 true, true, true, true, false, false
               ],
+              delay: '0.6',
             },
             {
               id: 3,
@@ -76,9 +77,10 @@ export default function PricingHomeOne() {
               features: [
                 true, true, true, true, true, true
               ],
+              delay: '1.0',
             },
           ].map((plan) => (
-            <div key={plan.id} className="col-12 col-md-6 col-lg-4 fadeInUp" data-delay="0.5">
+            <div key={plan.id} className="col-12 col-md-6 col-lg-4 fadeInUp" data-delay={plan.delay}>
               <div className="pricing-card translateY10">
                 {/* Pricing Header */}
                 <div className="pricing-header text-center">
@@ -128,4 +130,3 @@ export default function PricingHomeOne() {
     </section>
   );
 }
-

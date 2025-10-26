@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function ServiceHomeThree() {
   return (
     <div className="service-section bg-secondary">

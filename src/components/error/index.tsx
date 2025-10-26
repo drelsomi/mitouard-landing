@@ -5,9 +5,6 @@ import Link from "next/link";
 import CtaHomeOne from "../homes/home-1/CtaHomeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
 
- 
-
-
 export default function NotFound() {
   return (
     <Wrapper>

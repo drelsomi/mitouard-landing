@@ -1,11 +1,10 @@
 "use client";
+
 import Link from "next/link";
 import Navmenu from "./Navmenu";
 import SearchbarArea from "@/common/SearchbarArea";
 import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
-
-
 
 export default function HeaderOne() {
   const [searchOpen, setSearchOpen] = useState(false);

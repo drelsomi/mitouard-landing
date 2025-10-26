@@ -1,5 +1,3 @@
-
-
 export default function ProcessHomeFive() {
   return (
     <section className="process-section bg-secondary">

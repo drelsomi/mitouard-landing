@@ -2,8 +2,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-
-
 interface ProjectItem {
   id: number;
   category: string;
@@ -21,14 +19,10 @@ const projects: ProjectItem[] = [
   { id: 6, category: "App", title: "Landing Page Design", image: "/assets/img/bg-img/79.jpg", delay: 1.0 },
 ];
 
-
 // data
 const categories = ["All", ...new Set(projects.map((item) => item.category))];
 
-
-
 export default function ProjectsHomeFive() {
-
   const [activeCategory, setActiveCategory] = useState("All");
   const [items, setItems] = useState(projects);
 
@@ -43,9 +37,6 @@ export default function ProjectsHomeFive() {
       setItems(findItems);
     }
   };
-
-
-
 
   return (
     <section className="project-section startix-container">

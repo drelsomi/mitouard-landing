@@ -2,7 +2,6 @@
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-
 const brands = [
   "/assets/img/partner-img/1.png",
   "/assets/img/partner-img/2.png",
@@ -15,7 +14,6 @@ const brands = [
   "/assets/img/partner-img/4.png",
   "/assets/img/partner-img/5.png",
 ];
-
 
 export default function PricingHomeTwo() {
   return (
@@ -41,7 +39,7 @@ export default function PricingHomeTwo() {
 
           {/* <!-- Pricing Card --> */}
           <div className="col-12 col-sm-6 col-lg-4">
-            <div className="pricing-card style-three translateY10 fadeInUp" data-delay="0.5">
+            <div className="pricing-card style-three translateY10 fadeInUp" data-delay="0.2">
               {/* <!-- Pricing Header --> */}
               <div className="pricing-header">
                 <h4>Popular</h4>
@@ -148,5 +146,3 @@ export default function PricingHomeTwo() {
     </section>
   )
 }
-
- 

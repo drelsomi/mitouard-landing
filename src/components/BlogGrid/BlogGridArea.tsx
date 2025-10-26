@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function BlogGridArea() {
   return (
     <div className="blog-section bg-white">

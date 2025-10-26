@@ -1,26 +1,13 @@
-"use client";
-import { jarallax } from "jarallax";
-import { useEffect, useRef } from "react";
+"use client"; 
+
+import { useJarallax } from "@/hooks/useJarallax";
+import 'jarallax/dist/jarallax.css';
+
 export default function HeroHomeFive() {
-
-     const jarallaxRef = useRef<HTMLDivElement>(null);
-  
-    useEffect(() => {
-      if (jarallaxRef.current) {
-        jarallax(jarallaxRef.current, { speed: 0.6 });
-      }
-  
-      return () => {
-        if (jarallaxRef.current) {
-          jarallax(jarallaxRef.current, "destroy");
-        }
-      };
-    }, []);
-  
-
+  const jarallaxRef = useJarallax(0.6);
 
   return (
-    <section className="hero-section bg-dark style-three jarallax" ref={jarallaxRef} data-jarallax="{'speed': 0.6}"
+    <section className="hero-section bg-dark style-three jarallax" ref={jarallaxRef} 
       style={{ backgroundImage: "url(/assets/img/core-img/shade7.png)" }}>
       <div className="container">
         <div className="row align-items-center g-5">

@@ -1,6 +1,4 @@
- 
-
-export const dynamic = "force-dynamic"; // prevent prerender error
+export const dynamic = "force-dynamic";
 
 import HomeTwo from "@/components/homes/home-2";
 

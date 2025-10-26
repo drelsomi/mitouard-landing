@@ -1,4 +1,3 @@
-
 export default function FaqArea() {
   return (
     <div className="faq-question-section" style={{ backgroundImage: "url(/assets/img/core-img/shape11.png)" }}>

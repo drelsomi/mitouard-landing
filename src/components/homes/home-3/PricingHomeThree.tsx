@@ -1,5 +1,3 @@
-
-
 export default function PricingHomeThree() {
   return (
     <section className="pricing-section">

@@ -3,12 +3,9 @@
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Swiper styles
 import "swiper/css";
  
-
-
-
 export default function InterfaceHomeTwo() {
   return (
     <div className="app-screenshots-section bg-secondary">

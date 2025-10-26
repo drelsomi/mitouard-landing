@@ -1,12 +1,11 @@
- 
-
 "use client";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import "swiper/css";
- 
-import "swiper/css/navigation";
 import { useRef, useEffect, useState } from "react";
+
+import "swiper/css"; 
+import "swiper/css/navigation";
 
 export default function TestimonialHomeFour() {
   const prevRef = useRef<HTMLDivElement>(null);
@@ -73,8 +72,8 @@ export default function TestimonialHomeFour() {
                       <defs>
                         <linearGradient id="paint0_linear_1_299511" x1="32" y1="54.2852" x2="32"
                           y2="9.71726" gradientUnits="userSpaceOnUse">
-                          <stop offset="0" stop-color="#601FEB" />
-                          <stop offset="1" stop-color="#9E02C0" />
+                          <stop offset="0" stopColor="#601FEB" />
+                          <stop offset="1" stopColor="#9E02C0" />
                         </linearGradient>
                       </defs>
                     </svg>

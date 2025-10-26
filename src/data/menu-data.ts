@@ -17,8 +17,6 @@ interface MenuDataType {
   submenu?: SubMenu[];
 }
 
-
-
 const menu_data: MenuDataType[] = [
   {
     title: "Home",
@@ -96,5 +94,4 @@ const menu_data: MenuDataType[] = [
   },
 ];
 
-export default menu_data;
- 
+export default menu_data; 

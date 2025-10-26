@@ -1,8 +1,8 @@
-
 "use client";
+
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
- 
+
+import "swiper/css"; 
 import "swiper/css/navigation";
 
 interface BrandItem {
@@ -52,9 +52,6 @@ const brands_data: BrandItem[] = [
     img: "/assets/img/partner-img/5.png",
   },
 ];
-
-
-
 
 export default function PricingHomeFour() {
   return (

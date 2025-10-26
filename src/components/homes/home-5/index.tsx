@@ -1,4 +1,5 @@
 "use client";
+
 import HeaderFive from "@/layouts/headers/HeaderFive";
 import Wrapper from "@/layouts/Wrapper";
 import HeroHomeFive from "./HeroHomeFive";
@@ -12,8 +13,6 @@ import TestimoniaHomeFive from "./TestimoniaHomeFive";
 import FaqHomeFive from "./FaqHomeFive";
 import CtaHomeFive from "./CtaHomeFive";
 import FooterFive from "@/layouts/footers/FooterFive";
-
-
 
 export default function HomeFive() {
   return (

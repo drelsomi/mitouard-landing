@@ -1,12 +1,11 @@
 "use client";
+
 import testimonial_data from "@/data/testimonial-data";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
- 
+import "swiper/css"; 
 import "swiper/css/navigation";
-
 
 const s = {
   loop: true,

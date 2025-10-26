@@ -1,9 +1,7 @@
- 
 import Link from "next/link";   
 
 export default function FaqHomeOne() {
  
-
   return (
     <section className="faq-section">
       {/* <!-- Divider --> */}

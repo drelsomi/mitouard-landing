@@ -1,9 +1,9 @@
 "use client";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
- 
 
+// Swiper styles
+import "swiper/css";
 
 export default function TestimonialHomeTwo() {
   return (
@@ -140,6 +140,3 @@ export default function TestimonialHomeTwo() {
     </section>
   )
 }
-
-
- 

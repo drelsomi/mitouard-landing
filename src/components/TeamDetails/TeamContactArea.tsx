@@ -1,4 +1,3 @@
-
 export default function TeamContactArea() {
   return (
     <section className="team-contact-section bg-secondary">

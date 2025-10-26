@@ -1,12 +1,11 @@
 "use client";
+
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Swiper styles
 import "swiper/css";
  
-
-
 export default function TestimoniaHomeFive() {
   return (
     <section className="testimonial-section bg-secondary">

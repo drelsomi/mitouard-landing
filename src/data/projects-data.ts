@@ -1,4 +1,3 @@
- 
 interface ProjectType {
   id: number;
   image: string;

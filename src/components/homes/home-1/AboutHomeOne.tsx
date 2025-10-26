@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function AboutHomeOne() {
   return (
     <section className="about-section style-one" style={{ backgroundImage: "url(/assets/img/core-img/shape4.png)" }}>

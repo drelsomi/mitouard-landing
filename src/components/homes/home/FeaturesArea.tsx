@@ -1,5 +1,3 @@
-
-
 export default function FeaturesArea() {
   return (
     <div className="core-features-wrap bg-secondary">

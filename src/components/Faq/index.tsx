@@ -6,8 +6,6 @@ import CtaHomeOne from "../homes/home-1/CtaHomeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
 import FaqArea from "./FaqArea";
 
- 
-
 export default function Faq() {
   return (
     <Wrapper>

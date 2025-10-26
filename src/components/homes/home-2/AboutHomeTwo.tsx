@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function AboutHomeTwo() {
   return (
     <section className="about-section style-two bg-white">

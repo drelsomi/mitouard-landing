@@ -1,5 +1,3 @@
-
-
 export default function ServiceHomeFive() {
   return (
     <section className="service-section style-three">

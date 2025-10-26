@@ -13,10 +13,8 @@ import BlogHomeFour from "./BlogHomeFour";
 import FooterFour from "@/layouts/footers/FooterFour";
 import TestimonialHomeFour from "./TestimonialHomeFour";
 
-
 export default function HomeFour() {
   return (
-   
       <Wrapper>
         <HeaderFour />
         <div id="smooth-wrapper">
@@ -35,6 +33,5 @@ export default function HomeFour() {
           </div>
         </div>
       </Wrapper>
- 
   )
 }

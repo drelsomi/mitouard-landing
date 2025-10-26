@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function FooterFive() {
   return (
     <footer className="footer-section style-five">

@@ -5,10 +5,8 @@ import { useState } from "react";
 import SearchbarArea from "@/common/SearchbarArea";
 import UseSticky from "@/hooks/UseSticky";
 
-
-
 export default function HeaderTwo() {
-  const {sticky} = UseSticky()
+   const {sticky} = UseSticky();
 
    const [searchOpen, setSearchOpen] = useState(false);
    const [isOpen, setIsOpen] = useState(false);
@@ -66,4 +64,3 @@ export default function HeaderTwo() {
       </>
    )
 }
-

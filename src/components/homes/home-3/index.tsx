@@ -1,4 +1,5 @@
 "use client";
+
 import HeaderThree from "@/layouts/headers/HeaderThree";
 import Wrapper from "@/layouts/Wrapper";
 import HeroHomeThree from "./HeroHomeThree";
@@ -11,8 +12,6 @@ import FaqHomeThree from "./FaqHomeThree";
 import BlogHomeThree from "./BlogHomeThree";
 import CtaHomeThree from "./CtaHomeThree";
 import FooterThree from "@/layouts/footers/FooterThree";
-
- 
 
 export default function HomeThree() {
   return (

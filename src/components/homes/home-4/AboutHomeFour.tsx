@@ -1,5 +1,3 @@
-
-
 export default function AboutHomeFour() {
   return (
     <div className="about-section">

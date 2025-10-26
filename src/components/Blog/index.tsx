@@ -1,12 +1,9 @@
- 
 import Breadcrumb from "@/common/Breadcrumb";
 import HeaderOne from "@/layouts/headers/HeaderOne"; 
 import CtaHomeOne from "../homes/home-1/CtaHomeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
 import BlogArea from "./BlogArea";
 import Wrapper from "@/layouts/Wrapper";
-
- 
 
 export default function Blog() {
   return (

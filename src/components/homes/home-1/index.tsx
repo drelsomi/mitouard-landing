@@ -1,4 +1,5 @@
 "use client";
+
 import FaqHomeOne from "./FaqHomeOne";
 import CtaHomeOne from "./CtaHomeOne";
 import Wrapper from "@/layouts/Wrapper";
@@ -12,7 +13,6 @@ import TestimoniaHomeOne from "./TestimoniaHomeOne";
 import IntegrationHomeOne from "./IntegrationHomeOne";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import FooterOne from "@/layouts/footers/FooterOne";
-
 
 export default function HomeOne() {
   return (

@@ -1,4 +1,5 @@
 "use client";
+
 import Breadcrumb from "@/common/Breadcrumb";
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import Wrapper from "@/layouts/Wrapper";
@@ -7,8 +8,6 @@ import FooterOne from "@/layouts/footers/FooterOne";
 import ServicesArea from "./ServicesArea";
 import PricingHomeOne from "../homes/home-1/PricingHomeOne";
 import TestimoniaHomeOne from "../homes/home-1/TestimoniaHomeOne";
-
- 
 
 export default function Services() {
   return (

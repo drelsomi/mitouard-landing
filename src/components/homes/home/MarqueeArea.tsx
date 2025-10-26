@@ -1,7 +1,7 @@
 "use client";
+
 import Marquee3k from 'marquee3000';
 import { useEffect } from 'react';
-
 
 export default function MarqueeArea() {
    useEffect(() => {

@@ -4,10 +4,8 @@ import Navmenu from "./Navmenu";
 import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
 
-
 export default function HeaderThree() {
-  const {sticky} = UseSticky()
-
+   const {sticky} = UseSticky();
 
    const [isOpen, setIsOpen] = useState(false);
    const toggleMenu = () => {
@@ -41,7 +39,7 @@ export default function HeaderThree() {
                <a href="#" className="btn login-btn p-0">Login</a>
 
                {/* <!-- Button --> */}
-               <Link href="/contact" className="btn btn-primary d-none d-sm-block">
+               <Link href="/contact" className="btn btn-primary d-none d-sm-inline-flex">
                   <span>Get Started <i className="ti ti-arrow-up-right"></i></span>
                   <span>Get Started <i className="ti ti-arrow-up-right"></i></span>
                </Link>

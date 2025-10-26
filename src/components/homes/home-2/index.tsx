@@ -1,9 +1,14 @@
 "use client";
+import dynamic from "next/dynamic";
+const FunfactHomeTwo = dynamic(
+  () => import("./FunfactHomeTwo"),
+  { ssr: false }  
+);
+
 import HeaderTwo from '@/layouts/headers/HeaderTwo'
 import Wrapper from '@/layouts/Wrapper' 
 import HeroHomeTwo from './HeroHomeTwo'
 import FeaturesHomeTwo from './FeaturesHomeTwo'
-import FunfactHomeTwo from './FunfactHomeTwo'
 import AboutHomeTwo from './AboutHomeTwo'
 import InterfaceHomeTwo from './InterfaceHomeTwo'
 import PricingHomeTwo from './PricingHomeTwo'

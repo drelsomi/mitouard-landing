@@ -1,5 +1,3 @@
-
-
 export default function CtaHomeTwo() {
   return (
     <section className="download-section bg-primary">

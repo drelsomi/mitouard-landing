@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-
-
 export default function BlogHomeTwo() {
   return (
     <section className="blog-section">

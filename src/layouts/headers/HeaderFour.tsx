@@ -5,8 +5,6 @@ import { useState } from "react";
 import SidebarArea from "@/common/SidebarArea";
 import UseSticky from "@/hooks/UseSticky";
 
-
-
 export default function HeaderFour() {
   const { sticky } = UseSticky();
 
@@ -14,7 +12,6 @@ export default function HeaderFour() {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
 
   return (
     <>

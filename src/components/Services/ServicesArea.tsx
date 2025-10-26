@@ -1,4 +1,3 @@
-
 export default function ServicesArea() {
   return (
     <div className="service-section">

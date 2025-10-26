@@ -1,4 +1,3 @@
-
 export default function FaqHomeThree() {
   return (
     <section className="faq-section bg-secondary">

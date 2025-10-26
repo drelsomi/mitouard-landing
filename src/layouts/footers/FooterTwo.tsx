@@ -1,25 +1,11 @@
 "use client";
-import { jarallax } from "jarallax";
-import Link from "next/link";
-import { useEffect, useRef } from "react";
 
+import Link from "next/link";
+import { useJarallax } from "@/hooks/useJarallax";
+import 'jarallax/dist/jarallax.css';
 
 export default function FooterTwo() {
-
-  const jarallaxRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    if (jarallaxRef.current) {
-      jarallax(jarallaxRef.current, { speed: 0.6 });
-    }
-
-    return () => {
-      if (jarallaxRef.current) {
-        jarallax(jarallaxRef.current, "destroy");
-      }
-    };
-  }, []);
-
+  const jarallaxRef = useJarallax(0.6);
 
   return (
     <footer ref={jarallaxRef} className="footer-section style-two jarallax bg-img" data-jarallax="{'speed': 0.6}"

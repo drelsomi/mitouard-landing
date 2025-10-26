@@ -3,7 +3,6 @@
 import project_data from "@/data/projects-data";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
-
 export default function ProjectsArea() {
   return (
     <div className="project-section project-masonary">

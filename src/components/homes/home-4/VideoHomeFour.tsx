@@ -3,11 +3,10 @@
 import VideoPopup from "@/modal/VideoPopup";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
+
+// Swiper styles
 import "swiper/css";
  
-// import { useEffect, useRef } from "react";
-// import { jarallax } from "jarallax";
-
 const slides = [
   { id: 1, image: "/assets/img/bg-img/63.jpg", video: "https://youtu.be/zCSmY_WjvPs" },
   { id: 2, image: "/assets/img/bg-img/64.jpg", video: "https://youtu.be/zCSmY_WjvPs" },
@@ -15,24 +14,6 @@ const slides = [
 ];
 
 export default function VideoHomeFour() {
-
-    //  const jarallaxRef = useRef<HTMLDivElement>(null);
-  
-    // useEffect(() => {
-    //   if (jarallaxRef.current) {
-    //     jarallax(jarallaxRef.current, { speed: 0.6 });
-    //   }
-  
-    //   return () => {
-    //     if (jarallaxRef.current) {
-    //       jarallax(jarallaxRef.current, "destroy");
-    //     }
-    //   };
-    // }, []);
-  
-
-
-
   return (
     <div className="video-gallery-section" >
       <Swiper
@@ -83,5 +64,3 @@ export default function VideoHomeFour() {
     </div>
   );
 }
- 
- 

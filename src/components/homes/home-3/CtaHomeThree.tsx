@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function CtaHomeThree() {
   return (
     <section className="cta-section bg-img" style={{ backgroundImage: "url(/assets/img/core-img/shade.png)" }}>

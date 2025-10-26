@@ -1,4 +1,3 @@
- 
 "use client";
 
 import { useEffect } from "react";
@@ -26,4 +25,3 @@ export default function ThemeProvider() {
 
   return null;
 }
- 

@@ -1,5 +1,3 @@
-
-
 export default function ProjectDetailsArea() {
   return (
     <div className="project-details-section">

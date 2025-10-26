@@ -3,15 +3,14 @@
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Swiper styles
 import "swiper/css";
- 
+
 import HappyClientsIcon from "@/svg/HappyClientsIcon";
 import FinishedProjectsIcon from "@/svg/FinishedProjectsIcon";
 import AwardsIcon from "@/svg/AwardsIcon";
 import GlobalOfficesIcon from "@/svg/GlobalOfficesIcon";
 import Count from "@/common/count";
-
 
 const counter_data = [
   { count: 1800, label: 'Happy Clients', icon: <HappyClientsIcon />, delay: 0.5 },
@@ -19,8 +18,6 @@ const counter_data = [
   { count: 350, label: 'Awards Won', icon: <AwardsIcon />, delay: 0.9 },
   { count: 24, label: 'Global Offices', icon: <GlobalOfficesIcon />, delay: 1.1 },
 ];
-
-
 
 export default function TestimonialHomeThree() {
   return (
@@ -47,7 +44,10 @@ export default function TestimonialHomeThree() {
                   <i className="ti ti-star-filled"></i>
                   <i className="ti ti-star-filled"></i>
                 </div>
-                <p className="mb-0"><span className="counter"> <Count number={1600} text="+ Clients Rating." /> </span></p>
+                
+                <div className="counter-text" style={{ color: "#fff" }}>
+                  <Count number={1600} text="+ Clients Rating." />
+                </div>
               </div>
             </div>
           </div>
@@ -175,21 +175,21 @@ export default function TestimonialHomeThree() {
       <div className="cta-content">
         <div className="container">
           <div className="row align-items-center g-4">
-            {counter_data.map((item,i) => (
-               <div key={i} className="col-12 col-sm-6 col-lg-3 translateY10">
-              <div className="cool-fact-card fadeInUp" data-delay={item.delay}>
-                <div className="cta-icon">
-                  {item.icon}                  
-                </div>
-                <div>
-                  <h2 className="mb-2"><span className="counter"> <Count number={item.count} text="+" /> </span></h2>
-                  <p className="mb-0">{item.label}</p>
+            {counter_data.map((item, i) => (
+              <div key={i} className="col-12 col-sm-6 col-lg-3 translateY10">
+                <div className="cool-fact-card fadeInUp" data-delay={item.delay}>
+                  <div className="cta-icon">
+                    {item.icon}
+                  </div>
+                  <div>
+                    <h2 className="mb-2"><span className="counter"> <Count number={item.count} text="+" /> </span></h2>
+                    <p className="mb-0">{item.label}</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
             ))}
-            
+
           </div>
         </div>
 

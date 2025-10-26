@@ -1,5 +1,3 @@
-
-
 export default function IntegrationHomeOne() {
   return (
     <section className="integration-section bg-secondary">

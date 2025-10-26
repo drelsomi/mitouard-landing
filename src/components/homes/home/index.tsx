@@ -1,4 +1,5 @@
 "use client";
+
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import HeroArea from "./HeroArea";
 import MarqueeArea from "./MarqueeArea";
@@ -8,8 +9,6 @@ import OuthersPages from "./OuthersPages";
 import TestimoniaArea from "./TestimoniaArea";
 import Footer from "./Footer";
 import Wrapper from "@/layouts/Wrapper";
-
-
 
 export default function HomePreview() {
   return (

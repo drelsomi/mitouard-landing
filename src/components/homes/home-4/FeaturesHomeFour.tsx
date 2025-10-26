@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function FeaturesHomeFour() {
   return (
     <section className="feature-section mx-md-3 mx-xl-4 rounded-4"

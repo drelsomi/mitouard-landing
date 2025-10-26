@@ -1,4 +1,3 @@
-
 "use client"
 import { useState } from "react";
 import CountUp from "react-countup";
@@ -28,8 +27,7 @@ const Count = ({ number, text, add_style }: CountType) => {
             <span ref={countUpRef} />
             <InView
               as="span"
-              onChange={(inView) => visibleChangeHandler(inView)}>
-              {/* {text && <span>{text}</span>}   */}
+              onChange={(inView) => visibleChangeHandler(inView)}> 
               {text && text}  
             </InView>
           </div>

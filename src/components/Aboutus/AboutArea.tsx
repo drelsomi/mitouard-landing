@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function AboutArea() {
   return (
     <section className="about-section">

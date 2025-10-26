@@ -1,5 +1,3 @@
-
-
 export default function AboutHomeThree() {
   return (
     <div className="about-section bg-white style-three">

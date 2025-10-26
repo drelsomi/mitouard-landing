@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function HeroHomeThree() {
   return (
     <section className="hero-section style-three" style={{ backgroundImage: "url(/assets/img/core-img/shade3.png)" }}>
@@ -15,7 +14,7 @@ export default function HeroHomeThree() {
 
       {/* <!-- Hero Shape Two --> */}
       <div className="hero-shape-two fadeInUp" data-delay="0.5">
-        <img className="scroll-image" src="/assets/img/core-img/shape10.png" alt="" />
+        <img data-speed="0.85" src="/assets/img/core-img/shape10.png" alt="" />
       </div>
 
       <div className="container">
@@ -45,9 +44,9 @@ export default function HeroHomeThree() {
           {/* <!-- Hero Image --> */}
           <div className="col-12 col-md-6">
             <div className="hero-image style-two fadeInUp" data-delay="0.9">
-              <img className="curve-img tilt-image" src="/assets/img/bg-img/48.jpg" alt="" />
+              <img data-speed="0.85" className="curve-img tilt-image" src="/assets/img/bg-img/48.jpg" alt="" />
               {/* <!-- Floating Image --> */}
-              <img className="floating-img scroll-image" src="/assets/img/bg-img/49.png" alt="" />
+              <img data-speed="0.85" className="floating-img" src="/assets/img/bg-img/49.png" alt="" />
             </div>
           </div>
         </div>

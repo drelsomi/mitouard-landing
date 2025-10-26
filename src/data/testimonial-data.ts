@@ -1,4 +1,3 @@
-
 interface TestimonialItem {
   id: number;
   text: string;

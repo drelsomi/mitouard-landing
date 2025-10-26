@@ -1,5 +1,4 @@
- 
-export const dynamic = "force-dynamic"; // prevent prerender error
+export const dynamic = "force-dynamic";
 
 import Contact from "@/components/Contact";
 

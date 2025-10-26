@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function HeroHomeTwo() {
   return (
     <section className="hero-section style-two" style={{ backgroundImage: "url(/assets/img/core-img/shade4.png)" }}>
@@ -12,7 +11,7 @@ export default function HeroHomeTwo() {
               <img src="/assets/img/bg-img/36.png" alt="" />
               {/* <!-- Shape --> */}
               <div className="bg-shape">
-                <img className="scroll-image" src="/assets/img/core-img/shape8.png" alt="" />
+                <img data-speed="0.85" src="/assets/img/core-img/shape8.png" alt="" />
               </div>
             </div>
           </div>
@@ -20,7 +19,7 @@ export default function HeroHomeTwo() {
           {/* <!-- Hero Content --> */}
           <div className="col-12 col-lg-6">
             <div className="hero-content pt-lg-0 ps-xxl-5">
-              <h2 className="heading-line" data-delay="0.3">Best Way to Manage Your Customers.</h2>
+              <h2 className="heading-chars" data-delay="0.2">Best Way to Manage Your Customers.</h2>
               <p className="heading-line" data-delay="0.5">Provide a brief overview of your SaaS product,
                 explaining what it does
                 and
@@ -32,7 +31,7 @@ export default function HeroHomeTwo() {
                   <span>Get Started Now <i className="ti ti-arrow-up-right"></i></span>
                   <span>Get Started Now <i className="ti ti-arrow-up-right"></i></span>
                 </Link>
-                <Link href="/contact" className="btn btn-outline-dark fadeInUp" data-delay="0.8">
+                <Link href="/contact" className="btn btn-outline-dark fadeInUp" data-delay="0.9">
                   <span>Contact Us <i className="ti ti-arrow-up-right"></i></span>
                   <span>Contact Us <i className="ti ti-arrow-up-right"></i></span>
                 </Link>
@@ -40,7 +39,7 @@ export default function HeroHomeTwo() {
 
               {/* <!-- Hero Cool Facts --> */}
               <div className="hero-cool-facts flex-wrap">
-                <div className="d-flex align-items-center fadeInUp" data-delay="0.9">
+                <div className="d-flex align-items-center fadeInUp" data-delay="1.0">
                   <div className="imgs-group style-two">
                     <img src="/assets/img/bg-img/37.png" alt="" />
                     <img src="/assets/img/bg-img/38.png" alt="" />
@@ -51,8 +50,8 @@ export default function HeroHomeTwo() {
                     <p className="mb-0">Happy Customers</p>
                   </div>
                 </div>
-                <div className="line fadeInUp" data-delay="0.9"></div>
-                <div className="fadeInUp" data-delay="1.0">
+                <div className="line fadeInUp" data-delay="1.0"></div>
+                <div className="fadeInUp" data-delay="1.1">
                   <h4 className="mb-1">4.9/5</h4>
                   <div className="mb-0 d-flex align-items-center gap-2">
                     <div className="rating">

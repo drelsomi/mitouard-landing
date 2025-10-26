@@ -1,6 +1,5 @@
 import Link from "next/link";
 
-
 export default function FaqHomeFour() {
   return (
     <section className="faq-section bg-secondary  mx-md-3 mx-xl-4 rounded-4">

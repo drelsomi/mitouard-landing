@@ -1,7 +1,5 @@
- 
-
-
 "use client";
+
 import menu_data from "@/data/menu-data";
 import Link from "next/link";
 import { useState } from "react";
@@ -104,4 +102,3 @@ export default function Navmenu() {
     </ul>
   );
 }
- 

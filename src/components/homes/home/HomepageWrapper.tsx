@@ -1,7 +1,6 @@
 import Count from "@/common/count";
 import Link from "next/link";
 
-
 export default function HomepageWrapper() {
   return (
     <div className="homepage-wrap">
@@ -84,4 +83,3 @@ export default function HomepageWrapper() {
     </div>
   )
 }
-

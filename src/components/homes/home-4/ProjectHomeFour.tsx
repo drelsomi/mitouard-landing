@@ -4,9 +4,8 @@ import Link from "next/link";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
+// Swiper styles
 import "swiper/css";
- 
 
 export default function ProjectHomeFour() {
   return (
@@ -60,7 +59,6 @@ export default function ProjectHomeFour() {
         }}
         className="swiper project-swiper" id="projectSwiper">
 
-
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
@@ -138,8 +136,6 @@ export default function ProjectHomeFour() {
             </div>
           </div>
         </SwiperSlide>
-
-
       </Swiper>
 
       {/* <!-- Divider --> */}
