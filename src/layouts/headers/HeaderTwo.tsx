@@ -4,10 +4,11 @@ import { useState } from "react";
 import SearchbarArea from "@/common/SearchbarArea";
 import UseSticky from "@/hooks/UseSticky";
 import Image from "next/image";
+import type { Route } from "next";
 
 type HeaderTwoProps = {
    ctaLabel?: string;
-   ctaHref?: string;
+   ctaHref?: Route;
 };
 
 export default function HeaderTwo({ ctaLabel = "Contact", ctaHref = "/contact" }: HeaderTwoProps) {
