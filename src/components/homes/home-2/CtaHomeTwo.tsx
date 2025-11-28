@@ -1,6 +1,8 @@
 import Image from "next/image";
 
 export default function CtaHomeTwo() {
+  const apkUrl = "https://somi-it.app/assets/app-release.apk";
+
   return (
     <section className="download-section bg-primary">
       {/* <!-- Divider --> */}
@@ -25,8 +27,9 @@ export default function CtaHomeTwo() {
                   </div>
                 </a>
                 <a
-                  href="/assets/app-release.apk"
-                  download
+                  href={apkUrl}
+                  target="_blank"
+                  rel="noreferrer"
                   className="btn-download fadeInUp"
                   data-delay="0.9"
                   style={{ backgroundColor: "#111", color: "#fff", borderColor: "#111" }}
