@@ -29,11 +29,10 @@ export default function PricingHomeOne() {
             <div className="price-plan-switch">
               <div className="form-check form-switch d-flex justify-content-center align-items-center gap-2"> 
                 <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Monthly</label>
-                <input className="form-check-input" type="checkbox" 
+                <input className="form-check-input mt-0" type="checkbox" 
                 checked={isYearly}
                   onChange={handleToggle} id="flexSwitchCheckDefault" />
                 <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Yearly</label>
-
               </div>
             </div>
           </div>

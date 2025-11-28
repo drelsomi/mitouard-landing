@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutArea() {
   return (
@@ -10,7 +11,7 @@ export default function AboutArea() {
         <div className="row align-items-center g-5">
           <div className="col-12 col-md-6">
             <div className="about-img pe-xxl-5 translateY10">
-              <img className="tilt-image" src="/assets/img/bg-img/28.jpg" alt="" />
+              <Image className="tilt-image w-auto h-auto" src="/assets/img/bg-img/28.jpg" alt="" width={500} height={500} priority/>
             </div>
           </div>
 

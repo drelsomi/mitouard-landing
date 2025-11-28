@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 // Swiper styles
 import "swiper/css";
@@ -62,7 +63,7 @@ export default function ProjectHomeFour() {
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
-            <img src="/assets/img/bg-img/66.jpg" alt="" />
+            <Image src="/assets/img/bg-img/66.jpg" alt="" width={1920} height={1080} priority/>
             <div className="project-info translateY10">
               <p className="mb-2">Al Horizon</p>
               <Link href="/project-details">
@@ -75,7 +76,7 @@ export default function ProjectHomeFour() {
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
-            <img src="/assets/img/bg-img/67.jpg" alt="" />
+            <Image src="/assets/img/bg-img/67.jpg" alt="" width={1920} height={1080} priority/>
             <div className="project-info translateY10">
               <p className="mb-2">Al Horizon</p>
               <Link href="/project-details">
@@ -88,7 +89,7 @@ export default function ProjectHomeFour() {
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
-            <img src="/assets/img/bg-img/68.jpg" alt="" />
+            <Image src="/assets/img/bg-img/68.jpg" alt="" width={1920} height={1080} priority/>
             <div className="project-info translateY10">
               <p className="mb-2">Al Horizon</p>
               <Link href="/project-details">
@@ -101,7 +102,7 @@ export default function ProjectHomeFour() {
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
-            <img src="/assets/img/bg-img/66.jpg" alt="" />
+            <Image src="/assets/img/bg-img/66.jpg" alt="" width={1920} height={1080} priority/>
             <div className="project-info translateY10">
               <p className="mb-2">Al Horizon</p>
               <Link href="/project-details">
@@ -114,7 +115,7 @@ export default function ProjectHomeFour() {
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
-            <img src="/assets/img/bg-img/67.jpg" alt="" />
+            <Image src="/assets/img/bg-img/67.jpg" alt="" width={1920} height={1080} priority/>
             <div className="project-info translateY10">
               <p className="mb-2">Al Horizon</p>
               <Link href="/project-details">
@@ -127,7 +128,7 @@ export default function ProjectHomeFour() {
         {/* <!-- Project Card --> */}
         <SwiperSlide className="swiper-slide">
           <div className="project-card-two">
-            <img src="/assets/img/bg-img/68.jpg" alt="" />
+            <Image src="/assets/img/bg-img/68.jpg" alt="" width={1920} height={1080} priority/>
             <div className="project-info translateY10">
               <p className="mb-2">Al Horizon</p>
               <Link href="/project-details">

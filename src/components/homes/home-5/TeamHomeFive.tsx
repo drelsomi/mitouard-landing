@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function TeamHomeFive() {
   return (
@@ -37,7 +38,7 @@ export default function TeamHomeFive() {
                 aria-labelledby="v-pills-home-tab" tabIndex={0}>
                 {/* <!-- Team Card --> */}
                 <div className="team-card-two">
-                  <img src="/assets/img/bg-img/73.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/73.jpg" alt="" width={1000} height={1000} priority/>
                   <div className="team-social">
                     <a href="#"><i className="ti ti-brand-facebook"></i></a>
                     <a href="#"><i className="ti ti-brand-instagram"></i></a>
@@ -51,7 +52,7 @@ export default function TeamHomeFive() {
                 aria-labelledby="v-pills-profile-tab" tabIndex={0}>
                 {/* <!-- Team Card --> */}
                 <div className="team-card-two">
-                  <img src="/assets/img/bg-img/73.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/73.jpg" alt="" width={1000} height={1000} priority/>
                   <div className="team-social">
                     <a href="#"><i className="ti ti-brand-facebook"></i></a>
                     <a href="#"><i className="ti ti-brand-instagram"></i></a>
@@ -65,7 +66,7 @@ export default function TeamHomeFive() {
                 aria-labelledby="v-pills-messages-tab" tabIndex={0}>
                 {/* <!-- Team Card --> */}
                 <div className="team-card-two">
-                  <img src="/assets/img/bg-img/73.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/73.jpg" alt="" width={1000} height={1000} priority/>
                   <div className="team-social">
                     <a href="#"><i className="ti ti-brand-facebook"></i></a>
                     <a href="#"><i className="ti ti-brand-instagram"></i></a>
@@ -79,7 +80,7 @@ export default function TeamHomeFive() {
                 aria-labelledby="v-pills-settings-tab" tabIndex={0}>
                 {/* <!-- Team Card --> */}
                 <div className="team-card-two">
-                  <img src="/assets/img/bg-img/73.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/73.jpg" alt="" width={1000} height={1000} priority/>
                   <div className="team-social">
                     <a href="#"><i className="ti ti-brand-facebook"></i></a>
                     <a href="#"><i className="ti ti-brand-instagram"></i></a>

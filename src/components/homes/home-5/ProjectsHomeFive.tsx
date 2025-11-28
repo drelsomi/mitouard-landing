@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import Image from "next/image";
 
 interface ProjectItem {
   id: number;
@@ -84,7 +85,7 @@ export default function ProjectsHomeFive() {
             <div key={i} className="col-12 col-sm-6 col-lg-4 filter-item design">
               <div className="project-card-three fadeInUp" data-delay={item.delay}>
                 <Link href="/project-details" target="_blank">
-                  <img src={item.image} alt="" />
+                  <Image className="w-auto" src={item.image} alt="" width={1920} height={1080} priority/>
                   <div className="project-info">
                     <p className="mb-2">{item.category}</p>
                     <h4 className="mb-0">{item.title}</h4>

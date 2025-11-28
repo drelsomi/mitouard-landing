@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ProjectDetailsArea() {
   return (
     <div className="project-details-section">
@@ -6,7 +8,7 @@ export default function ProjectDetailsArea() {
 
       {/* <!-- Project Image --> */}
       <div className="custom-container imgZoomInOut mb-5">
-        <img className="project-details-img" src="/assets/img/bg-img/109.jpg" alt="" />
+        <Image className="project-details-img" src="/assets/img/bg-img/109.jpg" alt="" width={1920} height={1080} priority/>
       </div>
 
       {/* <!-- Project Content --> */}
@@ -22,10 +24,10 @@ export default function ProjectDetailsArea() {
                 book bethas survived not only five when anner year unknown printer eed little.</p>
               <div className="row g-4">
                 <div className="col-12 col-sm-6">
-                  <img src="/assets/img/bg-img/110.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/110.jpg" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="col-12 col-sm-6">
-                  <img src="/assets/img/bg-img/111.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/111.jpg" alt="" width={1920} height={1080} priority/>
                 </div>
               </div>
               <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a

@@ -1,4 +1,3 @@
-"use client";
 import HeaderFour from "@/layouts/headers/HeaderFour";
 import Wrapper from "@/layouts/Wrapper";
 import HeroHomFour from "./HeroHomFour";

@@ -2,6 +2,7 @@
 
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 // Swiper styles
 import "swiper/css";
@@ -71,7 +72,7 @@ export default function TestimonialHomeThree() {
                 <div className="testimonial-card-three">
                   <div className="d-flex align-items-center gap-3 mb-4">
                     <div className="testimonial-image">
-                      <img src="/assets/img/bg-img/19.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/19.jpg" alt="" width={1000} height={1000} priority />
                     </div>
                     <div>
                       <h5>Alexander Cameron</h5>
@@ -103,7 +104,7 @@ export default function TestimonialHomeThree() {
                 <div className="testimonial-card-three">
                   <div className="d-flex align-items-center gap-3 mb-4">
                     <div className="testimonial-image">
-                      <img src="/assets/img/bg-img/19.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/19.jpg" alt="" width={1000} height={1000} priority />
                     </div>
                     <div>
                       <h5>Alexander Cameron</h5>
@@ -135,7 +136,7 @@ export default function TestimonialHomeThree() {
                 <div className="testimonial-card-three">
                   <div className="d-flex align-items-center gap-3 mb-4">
                     <div className="testimonial-image">
-                      <img src="/assets/img/bg-img/19.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/19.jpg" alt="" width={1000} height={1000} priority />
                     </div>
                     <div>
                       <h5>Alexander Cameron</h5>
@@ -161,8 +162,6 @@ export default function TestimonialHomeThree() {
                   </div>
                 </div>
               </SwiperSlide>
-
-
             </Swiper>
           </div>
         </div>

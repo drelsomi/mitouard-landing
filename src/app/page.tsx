@@ -1,7 +1,5 @@
-import HomePreview from "@/components/homes/home";
+import HomeTwo from "@/components/homes/home-2";
 
 export default function index() {
-  return (
-    <HomePreview />
-  )
+  return <HomeTwo />;
 }

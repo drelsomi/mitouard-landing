@@ -131,6 +131,10 @@
         z-index: 1;
     }
 
+    a {
+        display: block;
+    }
+
     img {
         transition: var(--Animation-Duration);
         border-radius: 18px;

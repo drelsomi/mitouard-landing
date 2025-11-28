@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navmenu from "./Navmenu";
 import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
+import Image from "next/image";
 
 export default function HeaderThree() {
    const {sticky} = UseSticky();
@@ -18,8 +19,8 @@ export default function HeaderThree() {
          <nav className="navbar navbar-expand-xl">
             {/* <!-- Navbar Brand --> */}
             <Link className="navbar-brand" href="#">
-               <img className="d-none d-md-block" src="/assets/img/core-img/logo-six.png" alt="" />
-               <img className="d-block d-md-none" src="/assets/img/core-img/logo-sm-three.png" alt="" />
+               <Image className="d-none d-md-block w-auto h-auto" src="/assets/img/core-img/logo-six.png" alt="" width={1920} height={1080} priority/>
+               <Image className="d-block d-md-none w-auto h-auto" src="/assets/img/core-img/logo-sm-three.png" alt="" width={1920} height={1080} priority/>
             </Link>
 
             {/* <!-- Navbar Toggler --> */}

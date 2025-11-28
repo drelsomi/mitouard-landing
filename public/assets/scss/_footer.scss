@@ -282,6 +282,7 @@
          display: block;
          transition: var(--Animation-Duration);
          position: relative;
+         overflow: hidden;
 
          img {
             width: 100%;

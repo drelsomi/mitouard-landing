@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const teamData = [
-  { name: "Miler Michel", role: "Front end Developer", img: "assets/img/bg-img/112.jpg" },
-  { name: "Brooklyn Simmons", role: "Founder & CCO", img: "assets/img/bg-img/113.jpg" },
-  { name: "Harry Brush", role: "Web Developer", img: "assets/img/bg-img/114.jpg" },
-  { name: "Mariana mia", role: "Founder & CCO", img: "assets/img/bg-img/115.jpg" },
+  { name: "Miler Michel", role: "Front end Developer", img: "/assets/img/bg-img/112.jpg" },
+  { name: "Brooklyn Simmons", role: "Founder & CCO", img: "/assets/img/bg-img/113.jpg" },
+  { name: "Harry Brush", role: "Web Developer", img: "/assets/img/bg-img/114.jpg" },
+  { name: "Mariana mia", role: "Founder & CCO", img: "/assets/img/bg-img/115.jpg" },
 ];
 
 export default function AboutTeam() { 
@@ -43,7 +44,7 @@ export default function AboutTeam() {
             <div key={index} className="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3">
               <div className="team-card-three bg-white">
                 <div className="team-img">
-                  <img src={member.img} alt={member.name} />
+                  <Image className="w-auto h-auto" src={member.img} alt={member.name} width={1920} height={1080} priority/>
                   
                   {/* Social Nav Trigger */}
                   <button

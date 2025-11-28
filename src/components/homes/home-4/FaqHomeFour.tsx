@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FaqHomeFour() {
   return (
@@ -13,7 +14,7 @@ export default function FaqHomeFour() {
             <div className="service-card-two style-two pe-xxl-5">
               <div className="service-thumb mb-0">
                 <Link href="/contact" className="btn">Explore more</Link>
-                <img src="/assets/img/bg-img/81.png" alt="" />
+                <Image src="/assets/img/bg-img/81.png" alt="" width={1920} height={1080} priority/>
               </div>
             </div>
           </div>

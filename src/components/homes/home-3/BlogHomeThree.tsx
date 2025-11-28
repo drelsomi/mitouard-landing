@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react"; 
+import { useState } from "react";
+import Image from "next/image";
 
 export default function BlogHomeThree() {
   const [openCard, setOpenCard] = useState<number | null>(0);  
@@ -64,7 +65,7 @@ export default function BlogHomeThree() {
               onClick={() => handleToggle(index)}
             >
               <div className="blog-img blog-hidden-content">
-                <img src={blog.img} alt="" />
+                <Image src={blog.img} alt="" width={1000} height={1000} priority />
                 <Link href="/blog-details" className="btn btn-primary">
                   <span>Read more <i className="d-none d-md-inline-block ti ti-arrow-up-right"></i></span>
                   <span>Read more <i className="d-none d-md-inline-block ti ti-arrow-up-right"></i></span>
@@ -73,7 +74,7 @@ export default function BlogHomeThree() {
 
               <div className="blog-body">
                 <div className="post-author">
-                  <img src={blog.authorImg} alt="" />
+                  <Image src={blog.authorImg} alt="" width={1000} height={1000} priority />
                   <div>
                     <h5 className="mb-1">{blog.authorName}</h5>
                     <p className="mb-0">Posted By</p>

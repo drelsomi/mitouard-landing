@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";  
 import Link from "next/link";
 import service_data from "@/data/service-data";
+import Image from "next/image";
 
 export default function HowWeWorkHomeOne() {
   return (
@@ -39,7 +40,7 @@ export default function HowWeWorkHomeOne() {
         <div className="row g-5">
           <div className="col-12 col-sm-5">
             <div className="section-heading translateY10 pe-xxl-5">
-              <img src="/assets/img/bg-img/35.jpg" alt="" />
+              <Image src="/assets/img/bg-img/35.jpg" alt="" width={1000} height={1000} priority/>
             </div>
           </div>
 
@@ -88,7 +89,7 @@ export default function HowWeWorkHomeOne() {
                     <div className="service-card">
                       {/* <!-- Shape --> */}
                       <div className="shape">
-                        <img src="/assets/img/core-img/shape7.png" alt="" />
+                        <Image className="w-auto h-auto" src="/assets/img/core-img/shape7.png" alt="" width={1000} height={1000} priority/>
                       </div>
                       <div className="service-icon">
                         <i className={`${item.icon}`}></i>

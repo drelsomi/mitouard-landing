@@ -1,4 +1,5 @@
-import Link from "next/link";   
+import Link from "next/link";
+import Image from "next/image";  
 
 export default function FaqHomeOne() {
  
@@ -12,17 +13,16 @@ export default function FaqHomeOne() {
           {/* <!-- Section Heading --> */}
           <div className="col-12 col-md-6">
             <div className="section-heading pe-xxl-5">
-              <span className="subtitle">Question</span>
-              <h2 className="mb-4">Have Any Questions? Here Some Answers</h2>
-              <p className="mb-5">In relation to websites and apps, UI design considers the look, interactivity of
-                the making product. It's all about making sure that the user interface.</p>
+              <span className="subtitle">Questions fréquentes</span>
+              <h2 className="mb-4">Comprendre l’accès à Le Mitouard App</h2>
+              <p className="mb-5">Accès premium annuel avec 1re année offerte, consultation offline sur mobile/tablette et recherche IA pour vos documents fiscaux, juridiques, sociaux et autres.</p>
               <Link href="/contact" className="btn btn-primary">
-                <span>Ask Your Question <i className="ti ti-arrow-up-right"></i></span>
-                <span>Ask Your Question <i className="ti ti-arrow-up-right"></i></span>
+                <span>Poser une question <i className="ti ti-arrow-up-right"></i></span>
+                <span>Poser une question <i className="ti ti-arrow-up-right"></i></span>
               </Link>
               {/* <!-- Question Mark --> */}
               <div className="question-mark">
-                <img data-speed="0.8" src="/assets/img/core-img/question-mark.png" alt="" />
+                <Image className="w-auto h-auto" data-speed="0.8" src="/assets/img/core-img/question-mark.png" alt="" width={1920} height={1080} priority/>
               </div>
             </div>
           </div>
@@ -36,15 +36,13 @@ export default function FaqHomeOne() {
                   <div className="accordion-header">
                     <button className="accordion-button" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqQuestion1" aria-expanded="true" aria-controls="faqQuestion1">
-                      What warranties do I have for installation?
+                      L’app fonctionne-t-elle sans connexion internet ?
                     </button>
                   </div>
                   <div id="faqQuestion1" className="accordion-collapse collapse show"
                     data-bs-parent="#faqAccordion">
                     <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself,
-                      because it is pain, but occasionally cumstances occur in which toil and pain can
-                      which toil and pain can procuresteady steady.
+                      Oui. Les documents synchronisés restent disponibles en mode offline sur mobile et tablette. À la reconnexion, les mises à jour se synchronisent automatiquement.
                     </div>
                   </div>
                 </div>
@@ -54,14 +52,12 @@ export default function FaqHomeOne() {
                   <div className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqQuestion2" aria-expanded="false" aria-controls="faqQuestion2">
-                      How long does it take to build a new website?
+                      Quelles catégories de documents sont disponibles ?
                     </button>
                   </div>
                   <div id="faqQuestion2" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself,
-                      because it is pain, but occasionally cumstances occur in which toil and pain can
-                      which toil and pain can procuresteady steady.
+                      Quatre catégories : fiscal, juridique, social et autres (annexes, contrats spécifiques, pièces diverses). La structure reste la même pour tous vos clients.
                     </div>
                   </div>
                 </div>
@@ -71,14 +67,12 @@ export default function FaqHomeOne() {
                   <div className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqQuestion3" aria-expanded="false" aria-controls="faqQuestion3">
-                      What do you need to start making me a website?
+                      Comment fonctionne l’abonnement premium ?
                     </button>
                   </div>
                   <div id="faqQuestion3" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself,
-                      because it is pain, but occasionally cumstances occur in which toil and pain can
-                      which toil and pain can procuresteady steady.
+                      L’abonnement est annuel et conditionne l’accès aux documents. La première année est offerte pour vos clients. Un renouvellement simple prolonge l’accès au-delà.
                     </div>
                   </div>
                 </div>
@@ -88,14 +82,12 @@ export default function FaqHomeOne() {
                   <div className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqQuestion4" aria-expanded="false" aria-controls="faqQuestion4">
-                      How to soft launch your business?
+                      La recherche est-elle assistée par l’IA ?
                     </button>
                   </div>
                   <div id="faqQuestion4" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself,
-                      because it is pain, but occasionally cumstances occur in which toil and pain can
-                      which toil and pain can procuresteady steady.
+                      Oui. L’IA comprend les requêtes en langage naturel, propose des filtres intelligents et retrouve un document même si le titre exact n’est pas connu.
                     </div>
                   </div>
                 </div>
@@ -105,14 +97,12 @@ export default function FaqHomeOne() {
                   <div className="accordion-header">
                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#faqQuestion5" aria-expanded="false" aria-controls="faqQuestion5">
-                      How does the trial work?
+                      Comment sécurisez-vous les accès ?
                     </button>
                   </div>
                   <div id="faqQuestion5" className="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                     <div className="accordion-body">
-                      Nor is there anyone who loves or pursues or desires to obtain pain itself,
-                      because it is pain, but occasionally cumstances occur in which toil and pain can
-                      which toil and pain can procuresteady steady.
+                      Accès nominatif, sessions chiffrées et gestion des droits par client. Les données sont stockées et synchronisées de façon sécurisée.
                     </div>
                   </div>
                 </div>

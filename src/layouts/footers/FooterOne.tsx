@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FooterOne() {
   return (
@@ -13,7 +14,7 @@ export default function FooterOne() {
             <div className="footer-card me-lg-5">
               {/* <!-- Footer Logo --> */}
               <Link href="/home-1" className="footer-logo mb-4">
-                <img src="./assets/img/core-img/logo.png" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/core-img/logo.png" alt="" width={1920} height={1080} priority/>
               </Link>
               <p>Each demo built with Teba will look different. You can customize almost anything appearance
                 of your website with only a few.</p>

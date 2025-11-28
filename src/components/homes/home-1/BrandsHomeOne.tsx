@@ -1,9 +1,9 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
- 
+import "swiper/css"; 
 import "swiper/css/navigation";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 
 interface BrandItem {
   id: number;
@@ -53,9 +53,6 @@ const brands_data: BrandItem[] = [
   },
 ];
 
-
- 
-
 export default function BrandsHomeOne() {
   return (
     <div className="partner-section py-5 bg-secondary">
@@ -89,7 +86,7 @@ export default function BrandsHomeOne() {
             {brands_data.map((item, i) => (
               <SwiperSlide key={i} className="swiper-slide">
                 <a href="#">
-                  <img src={item.img} alt={`Brand ${item.id}`} />
+                  <Image src={item.img} alt={`Brand ${item.id}`} width={1920} height={1080} priority/>
                 </a>
               </SwiperSlide>
             ))}

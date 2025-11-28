@@ -4,6 +4,7 @@ import Wrapper from "@/layouts/Wrapper";
 import Link from "next/link";
 import CtaHomeOne from "../homes/home-1/CtaHomeOne";
 import FooterOne from "@/layouts/footers/FooterOne";
+import Image from "next/image";
 
 export default function NotFound() {
   return (
@@ -18,7 +19,7 @@ export default function NotFound() {
               <div className="row justify-content-center">
                 <div className="col-12 col-sm-10 col-md-8 col-lg-6">
                   <div className="error-content text-center">
-                    <img className="mb-5" src="/assets/img/core-img/404.png" alt="" />
+                    <Image className="mb-5 w-auto h-auto" src="/assets/img/core-img/404.png" alt="" width={1920} height={1080} priority/>
                     <Link href="/" className="btn btn-dark fadeInUp" data-delay="0.5">
                       <span>Back To Home <i className="ti ti-arrow-up-right"></i></span>
                       <span>Back To Home <i className="ti ti-arrow-up-right"></i></span>

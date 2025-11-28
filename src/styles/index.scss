@@ -2,3 +2,14 @@
 @import "../../public/assets/css/flaticon.css";
 @import "../../public/assets/css/tabler-icons.min.css";
 @import "../../public/assets/scss/styles.scss"; 
+
+/* Override logo size for header style-two */
+.header-section.style-two .navbar-brand img.d-none.d-sm-block {
+  height: 48px !important;
+  width: auto !important;
+}
+
+.header-section.style-two .navbar-brand img.d-block.d-sm-none {
+  height: 44px !important;
+  width: auto !important;
+}

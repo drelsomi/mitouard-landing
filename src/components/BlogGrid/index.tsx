@@ -1,5 +1,3 @@
-"use client";
-
 import Breadcrumb from "@/common/Breadcrumb";
 import HeaderOne from "@/layouts/headers/HeaderOne"; 
 import CtaHomeOne from "../homes/home-1/CtaHomeOne";

@@ -1,5 +1,3 @@
-"use client";
-
 import HeaderFive from "@/layouts/headers/HeaderFive";
 import Wrapper from "@/layouts/Wrapper";
 import HeroHomeFive from "./HeroHomeFive";

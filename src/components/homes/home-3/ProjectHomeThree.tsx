@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 interface Project {
   id: number;
@@ -74,10 +75,12 @@ export default function ProjectHomeThree() {
                 style={{ animationDelay: `${project.delay}s` }}
               >
                 <div className="project-card fadeInUp">
-                  <img
+                  <Image
                     className={`img-anim-${project.id % 2 === 0 ? "right" : "left"}`}
                     src={project.img}
                     alt={project.title}
+                    width={613}
+                    height={400}
                     style={{ width: "613px", marginTop: "50px" }}
                   />
                   <div className="project-info">

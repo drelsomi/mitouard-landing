@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogGridArea() {
   return (
@@ -12,7 +13,7 @@ export default function BlogGridArea() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.5">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/87.jpg" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/bg-img/87.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -34,7 +35,7 @@ export default function BlogGridArea() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.6">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/88.jpg" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/bg-img/88.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -56,7 +57,7 @@ export default function BlogGridArea() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.7">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/89.jpg" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/bg-img/89.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -78,7 +79,7 @@ export default function BlogGridArea() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.5">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/90.jpg" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/bg-img/90.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -100,7 +101,7 @@ export default function BlogGridArea() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.6">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/91.jpg" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/bg-img/91.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -122,7 +123,7 @@ export default function BlogGridArea() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="blog-card fadeInUp" data-delay="0.7">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/92.jpg" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/bg-img/92.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">

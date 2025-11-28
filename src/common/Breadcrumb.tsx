@@ -24,7 +24,7 @@ export default function Breadcrumb({ title, pageLink }: BreadcrumbProps) {
           <div className="divider"></div>
           <h2>{title}</h2>
           <ul className="list-unstyled">
-            <li><Link href="/home-1">Home</Link></li>
+            <li><Link href="/home-2">Accueil</Link></li>
             <li>{pageLink}</li>
           </ul>
         </div>

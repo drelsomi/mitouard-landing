@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HeroHomeTwo() {
   return (
@@ -8,10 +9,10 @@ export default function HeroHomeTwo() {
           {/* <!-- Hero Image --> */}
           <div className="col-12 col-lg-6 col-hero-img">
             <div className="hero-image text-center fadeInUp" data-delay="1">
-              <img src="/assets/img/bg-img/36.png" alt="" />
+              <Image src="/assets/img/bg-img/36-new.png" alt="" width={1000} height={1000} priority />
               {/* <!-- Shape --> */}
               <div className="bg-shape">
-                <img data-speed="0.85" src="/assets/img/core-img/shape8.png" alt="" />
+                <Image data-speed="0.8" src="/assets/img/core-img/shape8.png" alt="" width={1000} height={1000} priority />
               </div>
             </div>
           </div>
@@ -19,21 +20,17 @@ export default function HeroHomeTwo() {
           {/* <!-- Hero Content --> */}
           <div className="col-12 col-lg-6">
             <div className="hero-content pt-lg-0 ps-xxl-5">
-              <h2 className="heading-chars" data-delay="0.2">Best Way to Manage Your Customers.</h2>
-              <p className="heading-line" data-delay="0.5">Provide a brief overview of your SaaS product,
-                explaining what it does
-                and
-                how
-                it can benefit the user chatbots without coding.</p>
+              <h2 className="heading-chars" data-delay="0.2">Le Mitouard App, vos dossiers partout.</h2>
+              <p className="heading-line" data-delay="0.5">Bibliothèque fiscale, juridique, sociale et autres, pensée pour les clients du cabinet Le Mitouard. Consultation mobile & tablette, mode offline, recherche IA avancée et accès premium renouvelé chaque année (1re année offerte).</p>
 
               <div className="d-flex align-items-center flex-wrap gap-4 mb-5">
                 <Link href="/contact" className="btn btn-primary fadeInUp" data-delay="0.7">
-                  <span>Get Started Now <i className="ti ti-arrow-up-right"></i></span>
-                  <span>Get Started Now <i className="ti ti-arrow-up-right"></i></span>
+                  <span>Activer mon année offerte <i className="ti ti-arrow-up-right"></i></span>
+                  <span>Activer mon année offerte <i className="ti ti-arrow-up-right"></i></span>
                 </Link>
                 <Link href="/contact" className="btn btn-outline-dark fadeInUp" data-delay="0.9">
-                  <span>Contact Us <i className="ti ti-arrow-up-right"></i></span>
-                  <span>Contact Us <i className="ti ti-arrow-up-right"></i></span>
+                  <span>Parler au cabinet <i className="ti ti-arrow-up-right"></i></span>
+                  <span>Parler au cabinet <i className="ti ti-arrow-up-right"></i></span>
                 </Link>
               </div>
 
@@ -41,13 +38,13 @@ export default function HeroHomeTwo() {
               <div className="hero-cool-facts flex-wrap">
                 <div className="d-flex align-items-center fadeInUp" data-delay="1.0">
                   <div className="imgs-group style-two">
-                    <img src="/assets/img/bg-img/37.png" alt="" />
-                    <img src="/assets/img/bg-img/38.png" alt="" />
-                    <img src="/assets/img/bg-img/39.png" alt="" />
+                    <Image src="/assets/img/bg-img/client1.png" alt="" width={1000} height={1000} priority />
+                    <Image src="/assets/img/bg-img/client2.png" alt="" width={1000} height={1000} priority />
+                    <Image src="/assets/img/bg-img/client3.png" alt="" width={1000} height={1000} priority />
                   </div>
                   <div className="ms-2">
-                    <h4 className="mb-0"><span className="counter">2599</span>+</h4>
-                    <p className="mb-0">Happy Customers</p>
+                    <h4 className="mb-0"><span className="counter">250</span>+</h4>
+                    <p className="mb-0">Utilisateurs</p>
                   </div>
                 </div>
                 <div className="line fadeInUp" data-delay="1.0"></div>
@@ -61,7 +58,7 @@ export default function HeroHomeTwo() {
                       <i className="ti ti-star-filled"></i>
                       <i className="ti ti-star-filled"></i>
                     </div>
-                    <span>Rating</span>
+                    <span>Note clients</span>
                   </div>
                 </div>
               </div>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FaqHomeFive() {
   return (
@@ -21,7 +22,7 @@ export default function FaqHomeFive() {
               </Link>
               {/* <!-- Question Mark --> */}
               <div className="question-mark">
-                <img data-speed="0.8" src="/assets/img/core-img/question-mark.png" alt="" />
+                <Image data-speed="0.8" src="/assets/img/core-img/question-mark.png" alt="" width={1920} height={1080} priority/>
               </div>
             </div>
           </div>

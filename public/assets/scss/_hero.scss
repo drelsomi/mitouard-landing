@@ -65,7 +65,7 @@
       border-radius: 50%;
       border: 2px solid #FEFEFE;
       object-fit: cover;
-      
+
       &:not(:first-child) {
          margin-left: -25px;
       }
@@ -81,7 +81,7 @@
       }
    }
 
-   > div {
+   >div {
       flex: 0 0 50px;
       width: 50px;
       height: 50px;
@@ -117,9 +117,15 @@
    position: relative;
    z-index: 1;
    margin-top: 50px;
+   border-radius: 20px 20px 0 0;
 
    @media #{rs.$bp-xl} {
       margin-top: 100px;
+   }
+
+   >img {
+      object-fit: cover;
+      border-radius: 20px 20px 0 0;
    }
 
    .bg-shape {
@@ -188,6 +194,7 @@
       background-repeat: no-repeat;
       background-size: cover;
       padding-top: 90px;
+      overflow: hidden;
 
       @media #{rs.$bp-xl} {
          padding-top: 100px;

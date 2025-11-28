@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
+import Image from "next/image";
 
 interface ProgressItem {
   id: number;
@@ -85,11 +86,14 @@ export default function WhatWeDoHomeFive() {
       <div className="divider"></div>
 
       <div className="what-we-do-img">
-        <img
+        <Image
           ref={tiltRef}
-          className="tilt-image img-anim-left"
+          className="tilt-image img-anim-left w-auto h-auto"
           src="/assets/img/bg-img/80.png"
           alt=""
+          width={1920}
+          height={1080}
+          priority
           style={{ transformStyle: "preserve-3d", transition: "transform 0.2s ease" }}
         />
       </div>

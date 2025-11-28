@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogDetailsArea() {
   return (
@@ -12,7 +13,7 @@ export default function BlogDetailsArea() {
             <div className="pe-lg-3">
               {/* <!-- Single Blog Content --> */}
               <div className="single-blog-content">
-                <img src="/assets/img/bg-img/99.jpg" alt="" />
+                <Image src="/assets/img/bg-img/99.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                 <div className="blog-meta flex-wrap d-flex align-items-center gap-3 gap-lg-4">
                   <a href="#">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
@@ -50,10 +51,10 @@ export default function BlogDetailsArea() {
                   provide.</p>
                 <div className="row g-4">
                   <div className="col-12 col-sm-6">
-                    <img src="/assets/img/bg-img/100.jpg" alt="" />
+                    <Image src="/assets/img/bg-img/100.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                   </div>
                   <div className="col-12 col-sm-6">
-                    <img src="/assets/img/bg-img/101.jpg" alt="" />
+                    <Image src="/assets/img/bg-img/101.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                   </div>
                 </div>
                 <p>The third Monday of January is supposed to be the most depressing day of the year. Whether
@@ -108,7 +109,7 @@ export default function BlogDetailsArea() {
                 <ul className="blog-comments-list">
                   <li className="single-comment">
                     <div className="comment-content">
-                      <img src="/assets/img/bg-img/102.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/102.jpg" alt="" width={90} height={90} priority/>
                       <div>
                         <p>Neque porro est qui dolorem ipsum quia quaed inventor veritatis
                           et
@@ -123,7 +124,7 @@ export default function BlogDetailsArea() {
                     <ul>
                       <li className="single-comment">
                         <div className="comment-content">
-                          <img src="/assets/img/bg-img/103.jpg" alt="" />
+                          <Image src="/assets/img/bg-img/103.jpg" alt="" width={90} height={90} priority/>
                           <div>
                             <p>Neque porro est qui dolorem ipsum quia quaed inventor veritatis
                               et
@@ -142,7 +143,7 @@ export default function BlogDetailsArea() {
                   </li>
                   <li className="single-comment">
                     <div className="comment-content">
-                      <img src="/assets/img/bg-img/102.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/102.jpg" alt="" width={90} height={90} priority/>
                       <div>
                         <p>Neque porro est qui dolorem ipsum quia quaed inventor veritatis
                           et
@@ -157,7 +158,7 @@ export default function BlogDetailsArea() {
                     <ul>
                       <li className="single-comment">
                         <div className="comment-content">
-                          <img src="/assets/img/bg-img/103.jpg" alt="" />
+                          <Image src="/assets/img/bg-img/103.jpg" alt="" width={90} height={90} priority/>
                           <div>
                             <p>Neque porro est qui dolorem ipsum quia quaed inventor veritatis
                               et
@@ -276,7 +277,7 @@ export default function BlogDetailsArea() {
                   {/* <!-- Widget Post --> */}
                   <div className="widget-blog">
                     <div className="blog-thumbnail">
-                      <img src="/assets/img/bg-img/93.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/93.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="blog-content">
                       <Link href="/blog-details" className="post-title mb-2">How to keep with SAAS trends
@@ -289,7 +290,7 @@ export default function BlogDetailsArea() {
                   {/* <!-- Widget Post --> */}
                   <div className="widget-blog">
                     <div className="blog-thumbnail">
-                      <img src="/assets/img/bg-img/94.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/94.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="blog-content">
                       <Link href="/blog-details" className="post-title mb-2">Keep Your Business Safe
@@ -302,7 +303,7 @@ export default function BlogDetailsArea() {
                   {/* <!-- Widget Post --> */}
                   <div className="widget-blog">
                     <div className="blog-thumbnail">
-                      <img src="/assets/img/bg-img/95.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/95.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="blog-content">
                       <Link href="/blog-details" className="post-title mb-2">Tackling the Changes of

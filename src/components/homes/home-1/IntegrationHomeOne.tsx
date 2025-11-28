@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function IntegrationHomeOne() {
   return (
     <section className="integration-section bg-secondary">
@@ -22,7 +24,7 @@ export default function IntegrationHomeOne() {
         <div className="integration-content">
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/6.png" alt="" />
+            <Image src="/assets/img/partner-img/6.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>Instagram</h5>
               <p>We must explain to you how these mistaken.</p>
@@ -31,7 +33,7 @@ export default function IntegrationHomeOne() {
 
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/7.png" alt="" />
+            <Image src="/assets/img/partner-img/7.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>X</h5>
               <p>We must explain to you how these mistaken.</p>
@@ -40,7 +42,7 @@ export default function IntegrationHomeOne() {
 
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/8.png" alt="" />
+            <Image src="/assets/img/partner-img/8.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>Adobe XD</h5>
               <p>We must explain to you how these mistaken.</p>
@@ -49,7 +51,7 @@ export default function IntegrationHomeOne() {
 
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/9.png" alt="" />
+            <Image src="/assets/img/partner-img/9.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>Figma</h5>
               <p>We must explain to you how these mistaken.</p>
@@ -58,7 +60,7 @@ export default function IntegrationHomeOne() {
 
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/10.png" alt="" />
+            <Image src="/assets/img/partner-img/10.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>Slack</h5>
               <p>We must explain to you how these mistaken.</p>
@@ -67,7 +69,7 @@ export default function IntegrationHomeOne() {
 
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/11.png" alt="" />
+            <Image src="/assets/img/partner-img/11.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>Facebook</h5>
               <p>We must explain to you how these mistaken.</p>
@@ -76,7 +78,7 @@ export default function IntegrationHomeOne() {
 
           {/* <!-- Integration Card --> */}
           <div className="integration-card translateY10">
-            <img src="/assets/img/partner-img/12.png" alt="" />
+            <Image src="/assets/img/partner-img/12.png" alt="" width={80} height={80} priority/>
             <div>
               <h5>Google Drive</h5>
               <p>We must explain to you how these mistaken.</p>

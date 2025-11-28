@@ -2,6 +2,7 @@
  
 import { useJarallax } from "@/hooks/useJarallax";
 import 'jarallax/dist/jarallax.css';
+import Image from "next/image";
 
 export default function HeroHomFour() {
  const jarallaxRef = useJarallax(0.6);
@@ -21,7 +22,7 @@ export default function HeroHomFour() {
 
           <div className="col-12 col-md-4 col-lg-6">
             <div className="text-end">
-              <img className="img-rotate360" src="/assets/img/bg-img/60.png" alt="" />
+              <Image className="img-rotate360 w-auto h-auto" src="/assets/img/bg-img/60.png" alt="" width={1920} height={1080} priority/>
             </div>
           </div>
         </div>

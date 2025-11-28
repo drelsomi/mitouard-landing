@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function ServiceHomeFour() {
   return (
@@ -20,11 +21,11 @@ export default function ServiceHomeFour() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="service-card-two fadeInUp" data-delay="0.5">
               <div className="shape">
-                <img src="/assets/img/core-img/shade5.png" alt="" />
+                <Image src="/assets/img/core-img/shade5.png" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="service-thumb">
                 <Link href="/service-details" className="btn">Learn More <i className="ti ti-arrow-right"></i></Link>
-                <img src="/assets/img/bg-img/69.png" alt="" />
+                <Image src="/assets/img/bg-img/69.png" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="service-content">
                 <Link href="/service-details">
@@ -41,11 +42,11 @@ export default function ServiceHomeFour() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="service-card-two fadeInUp" data-delay="0.6">
               <div className="shape">
-                <img src="/assets/img/core-img/shade5.png" alt="" />
+                <Image src="/assets/img/core-img/shade5.png" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="service-thumb">
                 <Link href="/service-details" className="btn">Learn More <i className="ti ti-arrow-right"></i></Link>
-                <img src="/assets/img/bg-img/70.png" alt="" />
+                <Image src="/assets/img/bg-img/70.png" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="service-content">
                 <Link href="/service-details">
@@ -62,11 +63,11 @@ export default function ServiceHomeFour() {
           <div className="col-12 col-md-6 col-lg-4 translateY10">
             <div className="service-card-two fadeInUp" data-delay="0.7">
               <div className="shape">
-                <img src="/assets/img/core-img/shade5.png" alt="" />
+                <Image src="/assets/img/core-img/shade5.png" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="service-thumb">
                 <Link href="/service-details" className="btn">Learn More <i className="ti ti-arrow-right"></i></Link>
-                <img src="/assets/img/bg-img/71.png" alt="" />
+                <Image src="/assets/img/bg-img/71.png" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="service-content">
                 <Link href="/service-details">

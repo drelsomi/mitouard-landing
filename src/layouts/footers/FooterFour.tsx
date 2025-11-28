@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useJarallax } from "@/hooks/useJarallax";
 import 'jarallax/dist/jarallax.css';
+import Image from "next/image";
 
 export default function FooterFour() {
   const jarallaxRef = useJarallax(0.6);
@@ -55,7 +56,7 @@ export default function FooterFour() {
             <div className="footer-card me-lg-5">
               {/* <!-- Footer Logo --> */}
               <Link href="/home-4" className="footer-logo mb-4">
-                <img src="/assets/img/core-img/logo-light.png" alt="" />
+                <Image className="w-auto h-auto" src="/assets/img/core-img/logo-light.png" alt="" width={1920} height={1080} priority/>
               </Link>
               <p>Each demo built with Teba will look different. You can customize almost anything appearance
                 of your website with only a few.</p>
@@ -113,37 +114,37 @@ export default function FooterFour() {
               <ul className="list-unstyled recent-posts-nav">
                 <li>
                   <a href="#">
-                    <img src="/assets/img/bg-img/3.jpg" alt="" />
+                    <Image className="w-auto h-auto" src="/assets/img/bg-img/3.jpg" alt="" width={1920} height={1080} priority/>
                     <span><i className="ti ti-arrow-up-right"></i></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="/assets/img/bg-img/4.jpg" alt="" />
+                    <Image className="w-auto h-auto" src="/assets/img/bg-img/4.jpg" alt="" width={1920} height={1080} priority/>
                     <span><i className="ti ti-arrow-up-right"></i></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="/assets/img/bg-img/5.jpg" alt="" />
+                    <Image className="w-auto h-auto" src="/assets/img/bg-img/5.jpg" alt="" width={1920} height={1080} priority/>
                     <span><i className="ti ti-arrow-up-right"></i></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="/assets/img/bg-img/6.jpg" alt="" />
+                    <Image className="w-auto h-auto" src="/assets/img/bg-img/6.jpg" alt="" width={1920} height={1080} priority/>
                     <span><i className="ti ti-arrow-up-right"></i></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="/assets/img/bg-img/7.jpg" alt="" />
+                    <Image className="w-auto h-auto" src="/assets/img/bg-img/7.jpg" alt="" width={1920} height={1080} priority/>
                     <span><i className="ti ti-arrow-up-right"></i></span>
                   </a>
                 </li>
                 <li>
                   <a href="#">
-                    <img src="/assets/img/bg-img/8.jpg" alt="" />
+                    <Image className="w-auto h-auto" src="/assets/img/bg-img/8.jpg" alt="" width={1920} height={1080} priority/>
                     <span><i className="ti ti-arrow-up-right"></i></span>
                   </a>
                 </li>

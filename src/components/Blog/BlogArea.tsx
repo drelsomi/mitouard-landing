@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogArea() {
   return (
@@ -15,7 +16,7 @@ export default function BlogArea() {
               {/* <!-- Blog Card --> */}
               <div className="blog-card style-two fadeInUp" data-delay="0.5">
                 <div className="blog-img">
-                  <img src="/assets/img/bg-img/96.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/96.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="blog-body">
                   <div className="blog-meta mb-2">
@@ -37,7 +38,7 @@ export default function BlogArea() {
               {/* <!-- Blog Card --> */}
               <div className="blog-card style-two fadeInUp" data-delay="0.6">
                 <div className="blog-img">
-                  <img src="/assets/img/bg-img/97.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/97.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="blog-body">
                   <div className="blog-meta mb-2">
@@ -59,7 +60,7 @@ export default function BlogArea() {
               {/* <!-- Blog Card --> */}
               <div className="blog-card style-two fadeInUp" data-delay="0.7">
                 <div className="blog-img">
-                  <img src="/assets/img/bg-img/98.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/98.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="blog-body">
                   <div className="blog-meta mb-2">
@@ -152,7 +153,7 @@ export default function BlogArea() {
                   {/* <!-- Widget Post --> */}
                   <div className="widget-blog">
                     <div className="blog-thumbnail">
-                      <img src="/assets/img/bg-img/93.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/93.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="blog-content">
                       <Link href="/blog-details" className="post-title mb-2">How to keep with SAAS trends in
@@ -164,7 +165,7 @@ export default function BlogArea() {
                   {/* <!-- Widget Post --> */}
                   <div className="widget-blog">
                     <div className="blog-thumbnail">
-                      <img src="/assets/img/bg-img/94.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/94.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="blog-content">
                       <Link href="/blog-details" className="post-title mb-2">Keep Your Business Safe Ensure
@@ -176,7 +177,7 @@ export default function BlogArea() {
                   {/* <!-- Widget Post --> */}
                   <div className="widget-blog">
                     <div className="blog-thumbnail">
-                      <img src="/assets/img/bg-img/95.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/95.jpg" className="w-auto h-auto" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="blog-content">
                       <Link href="/blog-details" className="post-title mb-2">Tackling the Changes of Retell

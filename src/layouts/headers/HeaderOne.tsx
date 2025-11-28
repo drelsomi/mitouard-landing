@@ -5,6 +5,7 @@ import Navmenu from "./Navmenu";
 import SearchbarArea from "@/common/SearchbarArea";
 import { useState } from "react";
 import UseSticky from "@/hooks/UseSticky";
+import Image from "next/image";
 
 export default function HeaderOne() {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -75,7 +76,7 @@ export default function HeaderOne() {
           <div className="container">
             {/* <!-- Navbar Brand --> */}
             <Link className="navbar-brand" href="/home-1">
-              <img src="/assets/img/core-img/logo.png" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/core-img/logo.png" alt="" width={1920} height={1080} priority/>
             </Link>
 
             {/* <!-- Navbar Toggler --> */}

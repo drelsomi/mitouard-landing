@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 type TeamMember = {
   id: number;
@@ -10,14 +11,14 @@ type TeamMember = {
 };
 
 const members: TeamMember[] = [
-  { id: 1, name: "Miler Michel", role: "Front end Developer", img: "assets/img/bg-img/112.jpg" },
-  { id: 2, name: "Brooklyn Simmons", role: "Founder & CCO", img: "assets/img/bg-img/113.jpg" },
-  { id: 3, name: "Harry Brush", role: "Web Developer", img: "assets/img/bg-img/114.jpg" },
-  { id: 4, name: "Mariana mia", role: "Founder & CCO", img: "assets/img/bg-img/115.jpg" },
-  { id: 5, name: "Dianne Russell", role: "HR Manager", img: "assets/img/bg-img/116.jpg" },
-  { id: 6, name: "Tonya Martin", role: "HR Manager", img: "assets/img/bg-img/117.jpg" },
-  { id: 7, name: "Jacob Jones", role: "Founder & CCO", img: "assets/img/bg-img/118.jpg" },
-  { id: 8, name: "David Taylor", role: "Founder & CCO", img: "assets/img/bg-img/119.jpg" },
+  { id: 1, name: "Miler Michel", role: "Front end Developer", img: "/assets/img/bg-img/112.jpg" },
+  { id: 2, name: "Brooklyn Simmons", role: "Founder & CCO", img: "/assets/img/bg-img/113.jpg" },
+  { id: 3, name: "Harry Brush", role: "Web Developer", img: "/assets/img/bg-img/114.jpg" },
+  { id: 4, name: "Mariana mia", role: "Founder & CCO", img: "/assets/img/bg-img/115.jpg" },
+  { id: 5, name: "Dianne Russell", role: "HR Manager", img: "/assets/img/bg-img/116.jpg" },
+  { id: 6, name: "Tonya Martin", role: "HR Manager", img: "/assets/img/bg-img/117.jpg" },
+  { id: 7, name: "Jacob Jones", role: "Founder & CCO", img: "/assets/img/bg-img/118.jpg" },
+  { id: 8, name: "David Taylor", role: "Founder & CCO", img: "/assets/img/bg-img/119.jpg" },
 ];
 
 export default function TeamArea() {
@@ -38,7 +39,7 @@ export default function TeamArea() {
               <div className="team-card-three">
                 {/* Team Image */}
                 <div className="team-img">
-                  <img src={member.img} alt={member.name} />
+                  <Image className="w-auto h-auto" src={member.img} alt={member.name} width={1920} height={1080} priority/>
 
                   {/* Trigger */}
                   <button

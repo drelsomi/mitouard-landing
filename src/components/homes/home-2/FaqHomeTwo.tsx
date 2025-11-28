@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FaqHomeTwo() {
   return (
@@ -21,7 +22,7 @@ export default function FaqHomeTwo() {
               </Link>
               {/* <!-- Question Mark --> */}
               <div className="question-mark">
-                <img data-speed="0.8" src="./assets/img/core-img/question-mark.png" alt="" />
+                <Image className="w-auto h-auto" data-speed="0.8" src="./assets/img/core-img/question-mark.png" alt="" width={1000} height={1000} priority/>
               </div>
             </div>
           </div>

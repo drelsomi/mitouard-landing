@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutHomeThree() {
   return (
     <div className="about-section bg-white style-three">
@@ -11,10 +13,10 @@ export default function AboutHomeThree() {
               <h3><span className="counter">1000</span>+</h3>
               <p className="mb-4">Active Community Member</p>
               <div className="about-top-img">
-                <img src="/assets/img/bg-img/50.png" alt="" />
-                <img src="/assets/img/bg-img/51.png" alt="" />
-                <img src="/assets/img/bg-img/52.png" alt="" />
-                <img src="/assets/img/bg-img/53.png" alt="" />
+                <Image src="/assets/img/bg-img/50.png" alt="" width={60} height={60} priority />
+                <Image src="/assets/img/bg-img/51.png" alt="" width={60} height={60} priority />
+                <Image src="/assets/img/bg-img/52.png" alt="" width={60} height={60} priority />
+                <Image src="/assets/img/bg-img/53.png" alt="" width={60} height={60} priority />
               </div>
             </div>
           </div>
@@ -32,7 +34,7 @@ export default function AboutHomeThree() {
       {/* <!-- About Bottom Image --> */}
       <div className="about-bottom-img translateY10">
         <div className="custom-container imgZoomInOut">
-          <img src="/assets/img/bg-img/54.png" alt="" />
+          <Image src="/assets/img/bg-img/54.png" alt="" width={1920} height={1080} priority />
         </div>
       </div>
 

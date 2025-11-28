@@ -1,5 +1,3 @@
-"use client";
-
 import AboutArea from "./AboutArea";
 import AboutStory from "./AboutStory";
 import AboutTeam from "./AboutTeam";

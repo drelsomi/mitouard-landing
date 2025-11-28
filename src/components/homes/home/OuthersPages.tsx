@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
@@ -44,7 +45,6 @@ const settings = {
   },
 }
 
-
 export default function OuthersPages() {
   return (
     <div className="other-pages-wrap">
@@ -76,7 +76,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/About-Us.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/About-Us.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/about-us" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -87,7 +87,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Blog-Details.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Blog-Details.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/blog-details" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -98,7 +98,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Blog-Grid.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Blog-Grid.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/blog-grid" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -109,7 +109,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Blog-List.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Blog-List.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/blog" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -120,7 +120,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Contact-Us.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Contact-Us.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/contact" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -131,7 +131,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Error.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Error.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/404" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -142,7 +142,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Faqs.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Faqs.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/faqs" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -153,7 +153,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Our-Services.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Our-Services.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/services" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -164,7 +164,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Our-Team.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Our-Team.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/team" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -175,7 +175,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Pricing-Plan.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Pricing-Plan.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/pricing" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -186,7 +186,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Project-Details.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Project-Details.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/project-details" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -197,7 +197,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/Projects.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Projects.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/projects" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -208,7 +208,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card border-0">
-              <img src="/assets/img/demo-img/Service-Details.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Service-Details.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/service-details" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
@@ -219,7 +219,7 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card border-0">
-              <img src="/assets/img/demo-img/Team-Details.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/Team-Details.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
               <Link href="/team-details" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>

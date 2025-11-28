@@ -1,5 +1,3 @@
-"use client";
-
 import HeaderOne from "@/layouts/headers/HeaderOne";
 import HeroArea from "./HeroArea";
 import MarqueeArea from "./MarqueeArea";

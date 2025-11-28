@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FeaturesHomeOne() {
   return (
@@ -22,7 +23,7 @@ export default function FeaturesHomeOne() {
           {/* <!-- Featured Image --> */}
           <div className="col-12 col-md-6">
             <div className="featured-img translateY10 me-xl-4">
-              <img className="tilt-image img-anim-left" src="/assets/img/bg-img/32.png" alt="" />
+              <Image className="tilt-image img-anim-left w-auto h-auto" src="/assets/img/bg-img/32.png" alt="" width={800} height={800} priority/>
             </div>
           </div>
           {/* <!-- Featured Content --> */}
@@ -112,7 +113,7 @@ export default function FeaturesHomeOne() {
           {/* <!-- Featured Image --> */}
           <div className="col-12 col-md-6">
             <div className="featured-img translateY10 me-xl-4">
-              <img className="tilt-image img-anim-right" src="/assets/img/bg-img/33.png" alt="" />
+              <Image className="tilt-image img-anim-right w-auto h-auto" src="/assets/img/bg-img/33.png" alt="" width={800} height={800} priority/>
             </div>
           </div>
         </div>
@@ -126,7 +127,7 @@ export default function FeaturesHomeOne() {
           {/* <!-- Featured Image --> */}
           <div className="col-12 col-md-6">
             <div className="featured-img translateY10 me-xl-4">
-              <img className="tilt-image img-anim-left" src="/assets/img/bg-img/34.png" alt="" />
+              <Image className="tilt-image img-anim-left w-auto h-auto" src="/assets/img/bg-img/34.png" alt="" width={800} height={800} priority/>
             </div>
           </div>
 

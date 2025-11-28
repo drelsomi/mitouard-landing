@@ -2,6 +2,7 @@
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 // Swiper styles
 import "swiper/css";
@@ -16,8 +17,8 @@ export default function InterfaceHomeTwo() {
         <div className="row justify-content-center align-items-center">
           <div className="col-12 col-sm-10 col-md-9 col-lg-8 col-xl-7 col-xxl-6">
             <div className="section-heading text-center">
-              <span className="subtitle">App Screenshots</span>
-              <h2 className="mb-0">Interactive App Interface Showcase</h2>
+              <span className="subtitle">Interface</span>
+              <h2 className="mb-0">Aperçu de Le Mitouard App</h2>
             </div>
           </div>
         </div>
@@ -56,30 +57,29 @@ export default function InterfaceHomeTwo() {
           className="swiper app-screenshots" id="appScreenshotsSlide">
 
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/44.png" alt="" />
+            <Image src="/assets/img/bg-img/44-new.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/45.png" alt="" />
+            <Image src="/assets/img/bg-img/45-new.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/46.png" alt="" />
+            <Image src="/assets/img/bg-img/46-new.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/47.png" alt="" />
+            <Image src="/assets/img/bg-img/47-new2.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/44.png" alt="" />
+            <Image src="/assets/img/bg-img/44-new.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/45.png" alt="" />
+            <Image src="/assets/img/bg-img/45-new.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/46.png" alt="" />
+            <Image src="/assets/img/bg-img/46-new.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
-            <img src="/assets/img/bg-img/47.png" alt="" />
+            <Image src="/assets/img/bg-img/47-new2.png" alt="" width={1000} height={1000} priority />
           </SwiperSlide>
-
         </Swiper>
 
         {/* <!-- Divider --> */}

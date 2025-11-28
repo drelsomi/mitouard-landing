@@ -2,6 +2,7 @@
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 // Swiper styles
 import "swiper/css";
@@ -30,10 +31,10 @@ export default function TestimoniaHomeFive() {
             {/* <!-- Testimonial Side Images --> */}
             <div className="col-12 col-sm d-none d-lg-block">
               <div className="testimonial-side-imgs">
-                <img src="/assets/img/bg-img/20.jpg" alt="" />
-                <img src="/assets/img/bg-img/21.jpg" alt="" />
-                <img src="/assets/img/bg-img/22.jpg" alt="" />
-                <img src="/assets/img/bg-img/23.jpg" alt="" />
+                <Image src="/assets/img/bg-img/20.jpg" alt="" width={60} height={60} priority/>
+                <Image src="/assets/img/bg-img/21.jpg" alt="" width={60} height={60} priority/>
+                <Image src="/assets/img/bg-img/22.jpg" alt="" width={60} height={60} priority/>
+                <Image src="/assets/img/bg-img/23.jpg" alt="" width={60} height={60} priority/>
               </div>
             </div>
 
@@ -59,7 +60,7 @@ export default function TestimoniaHomeFive() {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-card">
                     <div className="testimonial-image">
-                      <img src="/assets/img/bg-img/19.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/19.jpg" alt="" width={100} height={100} priority/>
                     </div>
                     <div className="testimonial-info">
                       <p className="testimonial-text">“Working with several word press themes a
@@ -79,7 +80,7 @@ export default function TestimoniaHomeFive() {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-card">
                     <div className="testimonial-image">
-                      <img src="/assets/img/bg-img/20.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/20.jpg" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="testimonial-info">
                       <p className="testimonial-text">“I only can say this is best in every level. Working with several word press themes a
@@ -99,7 +100,7 @@ export default function TestimoniaHomeFive() {
                 <SwiperSlide className="swiper-slide">
                   <div className="testimonial-card">
                     <div className="testimonial-image">
-                      <img src="/assets/img/bg-img/21.jpg" alt="" />
+                      <Image src="/assets/img/bg-img/21.jpg" alt="" width={1920} height={1080} priority/>
                     </div>
                     <div className="testimonial-info">
                       <p className="testimonial-text">“Not only the design Working with several word press themes a
@@ -113,18 +114,16 @@ export default function TestimoniaHomeFive() {
                     </div>
                   </div>
                 </SwiperSlide>
-
-
               </Swiper>
             </div>
 
             {/* <!-- Testimonial Side Images --> */}
             <div className="col-12 col-sm d-none d-lg-block">
               <div className="testimonial-side-imgs">
-                <img src="/assets/img/bg-img/24.jpg" alt="" />
-                <img src="/assets/img/bg-img/25.jpg" alt="" />
-                <img src="/assets/img/bg-img/26.jpg" alt="" />
-                <img src="/assets/img/bg-img/27.jpg" alt="" />
+                <Image src="/assets/img/bg-img/24.jpg" alt="" width={60} height={60} priority/>
+                <Image src="/assets/img/bg-img/25.jpg" alt="" width={60} height={60} priority/>
+                <Image src="/assets/img/bg-img/26.jpg" alt="" width={60} height={60} priority/>
+                <Image src="/assets/img/bg-img/27.jpg" alt="" width={60} height={60} priority/>
               </div>
             </div>
           </div>

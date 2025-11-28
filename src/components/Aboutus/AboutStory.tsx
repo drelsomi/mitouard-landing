@@ -1,5 +1,6 @@
 import Count from "@/common/count";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function AboutStory() {
   return (
@@ -57,15 +58,15 @@ export default function AboutStory() {
                   </Link>
                 </div>
                 <div className="col-12 col-md-6">
-                  <img src="/assets/img/bg-img/121.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/121.jpg" alt="" className="w-auto h-auto" width={1920} height={1080} priority/>
                 </div>
               </div>
             </div>
 
             <div className="col-12 col-lg-4 col-xxl-3">
               <div className="d-flex flex-column gap-4">
-                <img src="/assets/img/bg-img/122.jpg" alt="" />
-                <img src="/assets/img/bg-img/123.jpg" alt="" />
+                <Image src="/assets/img/bg-img/122.jpg" alt="" className="w-auto h-auto" width={1920} height={1080} priority/>
+                <Image src="/assets/img/bg-img/123.jpg" alt="" className="w-auto h-auto" width={1920} height={1080} priority/>
               </div>
             </div>
           </div>
@@ -77,25 +78,25 @@ export default function AboutStory() {
             <div className="row g-0">
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="cool-facts">
-                  <h2><span className="counter"> <Count number={5} text="+" add_style={true} /> </span></h2>
+                  <h2><span className="counter"><Count number={5} text="+" add_style={true} /> </span></h2>
                   <p className="mb-0">Years of Experience</p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="cool-facts">
-                  <h2><span className="counter"> <Count number={430} text="+" add_style={true} /> </span></h2>
+                  <h2><span className="counter"><Count number={430} text="+" add_style={true} /> </span></h2>
                   <p className="mb-0">Project Completed</p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="cool-facts">
-                  <h2><span className="counter"> <Count number={2} text="+" add_style={true} /> </span></h2>
+                  <h2><span className="counter"><Count number={2} text="+" add_style={true} /> </span></h2>
                   <p className="mb-0">Employees</p>
                 </div>
               </div>
               <div className="col-12 col-sm-6 col-lg-3">
                 <div className="cool-facts">
-                  <h2><span className="counter"> <Count number={10} text="+" add_style={true} /> </span></h2>
+                  <h2><span className="counter"><Count number={10} text="+" add_style={true} /> </span></h2>
                   <p className="mb-0">Worldwide Customers</p>
                 </div>
               </div>

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface ProgressItem {
   title: string;
@@ -23,7 +24,7 @@ export default function SidebarArea() {
     const intervals: ReturnType<typeof setInterval>[] = [];
 
     progressData.forEach((item, index) => {
-      const increment = item.percentage / 50; // adjust speed here
+      const increment = item.percentage / 50;
       let current = 0;
 
       const interval = setInterval(() => {
@@ -55,7 +56,7 @@ export default function SidebarArea() {
         {/* Offcanvas Header */}
         <div className="offcanvas-header">
           <div>
-            <img src="/assets/img/core-img/logo-light.png" alt="" />
+            <Image src="/assets/img/core-img/logo-light.png" alt="" width={800} height={0} className="w-auto h-auto" />
           </div>
           <button
             type="button"
@@ -72,7 +73,7 @@ export default function SidebarArea() {
             {["Instagram", "Adobe XD", "Figma", "Slack", "Facebook", "Google Drive"].map(
               (item, i) => (
                 <div key={i} className="integration-card bg-secondary mw-100">
-                  <img src={`/assets/img/partner-img/${6 + i}.png`} alt="" />
+                  <Image src={`/assets/img/partner-img/${6 + i}.png`} alt="" width={80} height={80} className="w-auto h-auto" />
                   <div>
                     <h5>{item}</h5>
                     <p>We must explain to you how these mistaken.</p>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function FeaturesHomeTwo() {
   // Track which feature is active
@@ -10,32 +11,36 @@ export default function FeaturesHomeTwo() {
     {
       id: "feature1img",
       icon: "flaticon-new-features",
-      title: "Fully Secured",
-      text: "Zealously necessary breakfast. Surrounded motionless she end literature. Gay direction .supported yet her entertaining."
+      title: "Bibliothèque structurée",
+      text: "Documents classés par catégories fiscale, juridique, sociale et autres pour que vos clients trouvent immédiatement le bon dossier.",
+      image: "/assets/img/bg-img/82-new.png"
     },
     {
       id: "feature2img",
       icon: "flaticon-update",
-      title: "Regular Updates",
-      text: "Zealously necessary breakfast. Surrounded motionless she end literature. Gay direction .supported yet her entertaining."
+      title: "Recherche IA avancée",
+      text: "Recherche guidée en langage naturel avec filtres smart pour retrouver un document même hors connexion.",
+      image: "/assets/img/bg-img/83.png"
     },
     {
       id: "feature3img",
       icon: "flaticon-tap",
-      title: "Easy to Use",
-      text: "Zealously necessary breakfast. Surrounded motionless she end literature. Gay direction .supported yet her entertaining."
+      title: "Consultation offline",
+      text: "Mode hors ligne sur tablette et mobile : vos clients ouvrent leurs pièces où qu'ils soient, même sans réseau.",
+      image: "/assets/img/bg-img/84.png"
     },
     {
       id: "feature4img",
       icon: "flaticon-trust",
-      title: "Dedicated Support",
-      text: "Zealously necessary breakfast. Surrounded motionless she end literature. Gay direction .supported yet her entertaining."
+      title: "Accès premium annuel",
+      text: "Accès conditionné à un abonnement premium renouvelé chaque année, avec la première année offerte par le cabinet.",
+      image: "/assets/img/bg-img/85.png"
     },
   ];
 
   return (
     <section className="app-feature-section">
-      <div className="big-text">Features</div>
+      <div className="big-text">Mitouard</div>
       <div className="divider"></div>
 
       <div className="container">
@@ -64,11 +69,14 @@ export default function FeaturesHomeTwo() {
           <div className="col-12 col-md-4">
             <div className="app-feature-img">
               {featureData.map((feature) => (
-                <img
+                <Image
                   key={feature.id}
                   className={`${feature.id} ${activeFeature === feature.id ? "active" : ""}`}
-                  src={`/assets/img/bg-img/${82 + featureData.indexOf(feature)}.png`}
+                  src={feature.image}
                   alt={feature.title}
+                  width={1000}
+                  height={1000}
+                  priority
                 />
               ))}
             </div>

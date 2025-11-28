@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 interface ProgressItem {
   id: number;
@@ -56,7 +57,7 @@ export default function TeamDetailsArea() {
         <div className="row g-5 align-items-center">
           <div className="col-12 col-md-6">
             <div className="pe-xl-4">
-              <img className="w-100" src="/assets/img/bg-img/120.jpg" alt="" />
+              <Image className="w-100" src="/assets/img/bg-img/120.jpg" alt="" width={1920} height={1080} priority/>
             </div>
           </div>
 

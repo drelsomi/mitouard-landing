@@ -1,5 +1,6 @@
 import Count from "@/common/count";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HomepageWrapper() {
   return (
@@ -24,7 +25,7 @@ export default function HomepageWrapper() {
           {/* <!-- Home Page Card --> */}
           <div className="col-12 col-sm-6 col-xl-4">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/home1.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/home1.jpg" alt="" width={1920} height={1080} priority/>
               <Link href="/home-1" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
               </Link>
@@ -35,7 +36,7 @@ export default function HomepageWrapper() {
           {/* <!-- Home Page Card --> */}
           <div className="col-12 col-sm-6 col-xl-4">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/home2.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/home2.jpg" alt="" width={1920} height={1080} priority/>
               <Link href="/home-2" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
               </Link>
@@ -46,7 +47,7 @@ export default function HomepageWrapper() {
           {/* <!-- Home Page Card --> */}
           <div className="col-12 col-sm-6 col-xl-4">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/home3.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/home3.jpg" alt="" width={1920} height={1080} priority/>
               <Link href="/home-3" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
               </Link>
@@ -57,7 +58,7 @@ export default function HomepageWrapper() {
           {/* <!-- Home Page Card --> */}
           <div className="col-12 col-sm-6 col-xl-4">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/home4.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/home4.jpg" alt="" width={1920} height={1080} priority/>
               <Link href="/home-4" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
               </Link>
@@ -68,7 +69,7 @@ export default function HomepageWrapper() {
           {/* <!-- Home Page Card --> */}
           <div className="col-12 col-sm-6 col-xl-4">
             <div className="homepage-card">
-              <img src="/assets/img/demo-img/home5.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/demo-img/home5.jpg" alt="" width={1920} height={1080} priority/>
               <Link href="/home-5" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
               </Link>

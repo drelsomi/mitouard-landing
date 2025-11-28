@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function BlogHomeFour() {
   return (
@@ -34,7 +35,7 @@ export default function BlogHomeFour() {
           <div className="col-12 col-md-6 col-xl-4">
             <div className="blog-card translateY10">
               <div className="blog-img">
-                <img src="/assets/img/bg-img/13.jpg" alt="" />
+                <Image src="/assets/img/bg-img/13.jpg" alt="" width={1920} height={1080} priority/>
               </div>
               <div className="blog-body">
                 <div className="blog-meta mb-2">
@@ -59,7 +60,7 @@ export default function BlogHomeFour() {
               {/* <!-- Blog Card --> */}
               <div className="blog-card-two translateY10">
                 <div className="blog-img">
-                  <img src="/assets/img/bg-img/14.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/14.jpg" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="blog-body">
                   <div className="blog-meta mb-2">
@@ -79,7 +80,7 @@ export default function BlogHomeFour() {
               {/* <!-- Blog Card --> */}
               <div className="blog-card-two translateY10">
                 <div className="blog-img">
-                  <img src="/assets/img/bg-img/15.jpg" alt="" />
+                  <Image src="/assets/img/bg-img/15.jpg" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="blog-body">
                   <div className="blog-meta mb-2">

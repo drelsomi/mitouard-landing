@@ -4,6 +4,7 @@ import Navmenu from "./Navmenu";
 import { useState } from "react";
 import SidebarArea from "@/common/SidebarArea";
 import UseSticky from "@/hooks/UseSticky";
+import Image from "next/image";
 
 export default function HeaderFour() {
   const { sticky } = UseSticky();
@@ -20,7 +21,7 @@ export default function HeaderFour() {
         <nav className="navbar navbar-expand-xl">
           {/* <!-- Navbar Brand --> */}
           <Link className="navbar-brand" href="/home-4">
-            <img src="/assets/img/core-img/logo-light.png" alt="" />
+            <Image className="w-auto h-auto" src="/assets/img/core-img/logo-light.png" alt="" width={1920} height={1080} priority/>
           </Link>
 
           {/* <!-- Navbar Toggler --> */}

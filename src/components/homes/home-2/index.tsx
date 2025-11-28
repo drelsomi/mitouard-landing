@@ -1,5 +1,7 @@
 "use client";
+
 import dynamic from "next/dynamic";
+
 const FunfactHomeTwo = dynamic(
   () => import("./FunfactHomeTwo"),
   { ssr: false }  
@@ -12,12 +14,10 @@ import FeaturesHomeTwo from './FeaturesHomeTwo'
 import AboutHomeTwo from './AboutHomeTwo'
 import InterfaceHomeTwo from './InterfaceHomeTwo'
 import PricingHomeTwo from './PricingHomeTwo'
-import TestimonialHomeTwo from './TestimonialHomeTwo'
 import FaqHomeOne from '../home-1/FaqHomeOne'
 import CtaHomeTwo from './CtaHomeTwo'
-import BlogHomeTwo from './BlogHomeTwo'
-import FooterTwo from '@/layouts/footers/FooterTwo'
 import SvgIconTwo from '@/svg/SvgIconTwo'
+import Footer from '@/layouts/footers/FooterFive'
 
 export default function HomeTwo() {
   return (
@@ -31,11 +31,9 @@ export default function HomeTwo() {
           <AboutHomeTwo />
           <InterfaceHomeTwo />
           <PricingHomeTwo />
-          <TestimonialHomeTwo />
           <FaqHomeOne />
           <CtaHomeTwo />
-          <BlogHomeTwo />
-          <FooterTwo />
+          <Footer />
         </div>
       </div>
       <SvgIconTwo />

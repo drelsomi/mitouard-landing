@@ -2,6 +2,7 @@
 
 import { useJarallax } from "@/hooks/useJarallax";
 import 'jarallax/dist/jarallax.css';
+import Image from "next/image";
 
 export default function HeroHomeFive() {
   const jarallaxRef = useJarallax(0.6);
@@ -32,7 +33,7 @@ export default function HeroHomeFive() {
           {/* <!-- Hero Image --> */}
           <div className="col-12 col-md-6">
             <div className="hero-image fadeInUp" data-delay="1">
-              <img src="/assets/img/bg-img/72.png" alt="" />
+              <Image src="/assets/img/bg-img/72.png" alt="" width={1920} height={1080} priority/>
             </div>
           </div>
         </div>

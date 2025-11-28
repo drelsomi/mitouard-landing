@@ -1,4 +1,5 @@
 import Count from "@/common/count";
+import Image from 'next/image';
 
 export default function HeroHomeOne() {
   return (
@@ -8,7 +9,7 @@ export default function HeroHomeOne() {
           {/* <!-- Hero Content --> */}
           <div className="col-12 col-md-6 col-lg-6">
             <div className="hero-content">
-              <h2 className="text-white mb-0 heading-chars" data-delay="0.5">Commitment Igniting Future Pathways
+              <h2 className="text-white mb-0 heading-chars" data-delay="0.3">Commitment Igniting Future Pathways
               </h2>
             </div>
           </div>
@@ -19,9 +20,9 @@ export default function HeroHomeOne() {
               {/* <!-- Image Group Wrap --> */}
               <div className="img-group-wrap d-flex align-items-center fadeInUp" data-delay="0.5">
                 <div className="imgs-group">
-                  <img src="/assets/img/bg-img/30.png" alt="" />
-                  <img src="/assets/img/bg-img/31.png" alt="" />
-                  <div> <Count number={10} text="k" /></div>
+                  <Image src="/assets/img/bg-img/30.png" alt="Hero Image" width={50} height={50} />
+                  <Image src="/assets/img/bg-img/31.png" alt="Hero Image" width={50} height={50} />
+                  <div><Count number={10} text="k" /></div>
                 </div>
                 <h5 className="mb-0 ms-3">More than 10k+ <br /> trusted customers</h5>
               </div>
@@ -43,7 +44,7 @@ export default function HeroHomeOne() {
 
         {/* <!-- Hero Image --> */}
         <div className="hero-image fadeInUp mt-0" data-delay="0.7">
-          <img src="/assets/img/bg-img/29.png" alt="" />
+          <Image src="/assets/img/bg-img/29.png" alt="Hero Image" width={1920} height={50} className="w-auto h-auto" priority/>
         </div>
       </div>
     </section>

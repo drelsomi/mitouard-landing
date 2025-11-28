@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function ServiceDetailsArea() {
   return (
     <div className="service-details-section">
@@ -87,8 +89,6 @@ export default function ServiceDetailsArea() {
                     </div>
                   </div>
                 </div>
-
-
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function ServiceDetailsArea() {
           <div className="col-12 col-md-7 col-lg-8">
             {/* <!-- Service Details Content --> */}
             <div className="service-details-content">
-              <img src="/assets/img/bg-img/104.jpg" alt="" />
+              <Image className="w-auto h-auto" src="/assets/img/bg-img/104.jpg" alt="" width={1920} height={1080} priority/>
               <h2>Email Marketing</h2>
               <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a
                 book bethas survived not only five when anner year unknown printer eed little help from
@@ -128,10 +128,10 @@ export default function ServiceDetailsArea() {
               </ul>
               <div className="row g-4">
                 <div className="col-12 col-sm-6">
-                  <img src="/assets/img/bg-img/105.jpg" alt="" />
+                  <Image className="w-auto h-auto" src="/assets/img/bg-img/105.jpg" alt="" width={1920} height={1080} priority/>
                 </div>
                 <div className="col-12 col-sm-6">
-                  <img src="/assets/img/bg-img/106.jpg" alt="" />
+                  <Image className="w-auto h-auto" src="/assets/img/bg-img/106.jpg" alt="" width={1920} height={1080} priority/>
                 </div>
               </div>
               <p>When an unknown printer took ar galley offer type year anddey scrambled make aewer specimen a

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function HeroHomeThree() {
   return (
@@ -14,7 +15,7 @@ export default function HeroHomeThree() {
 
       {/* <!-- Hero Shape Two --> */}
       <div className="hero-shape-two fadeInUp" data-delay="0.5">
-        <img data-speed="0.85" src="/assets/img/core-img/shape10.png" alt="" />
+        <Image data-speed="0.8" src="/assets/img/core-img/shape10.png" alt="" width={1920} height={1080} priority/>
       </div>
 
       <div className="container">
@@ -43,10 +44,10 @@ export default function HeroHomeThree() {
 
           {/* <!-- Hero Image --> */}
           <div className="col-12 col-md-6">
-            <div className="hero-image style-two fadeInUp" data-delay="0.9">
-              <img data-speed="0.85" className="curve-img tilt-image" src="/assets/img/bg-img/48.jpg" alt="" />
+            <div className="hero-image style-two fadeInUp">
+              <Image data-speed="0.85" className="curve-img tilt-image w-auto h-auto" src="/assets/img/bg-img/48.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Floating Image --> */}
-              <img data-speed="0.85" className="floating-img" src="/assets/img/bg-img/49.png" alt="" />
+              <Image data-speed="0.8" className="floating-img w-auto h-auto" src="/assets/img/bg-img/49.png" alt="" width={1920} height={1080} priority/>
             </div>
           </div>
         </div>

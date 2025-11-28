@@ -1,9 +1,9 @@
 "use client";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css"; 
 import "swiper/css/navigation";
+import Image from "next/image";
 
 interface BrandItem {
   id: number;
@@ -164,7 +164,7 @@ export default function PricingHomeFour() {
             {brands_data.map((item, i) => (
               <SwiperSlide key={i} className="swiper-slide">
                 <a href="#">
-                  <img src={item.img} alt={`Brand ${item.id}`} />
+                  <Image src={item.img} alt={`Brand ${item.id}`} width={1920} height={1080} priority/>
                 </a>
               </SwiperSlide>
             ))}
