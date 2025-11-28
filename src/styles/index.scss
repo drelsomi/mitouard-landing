@@ -1,7 +1,7 @@
+@use "../../public/assets/scss/styles" as *; 
 @import "../../public/assets/css/bootstrap.min.css"; 
 @import "../../public/assets/css/flaticon.css";
 @import "../../public/assets/css/tabler-icons.min.css";
-@use "../../public/assets/scss/styles" as *; 
 
 /* Override logo size for header style-two */
 .header-section.style-two .navbar-brand img.d-none.d-sm-block {
