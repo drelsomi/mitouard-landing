@@ -41,7 +41,7 @@ export default function AboutHomeTwo() {
               </li>
             </ul>
 
-            <Link href="/about-us" className="btn btn-primary">
+            <Link href="#" className="btn btn-primary">
               <span>Découvrir l'app <i className="ti ti-arrow-up-right"></i></span>
               <span>Découvrir l'app <i className="ti ti-arrow-up-right"></i></span>
             </Link>
