@@ -47,21 +47,8 @@ export default function FunfactHomeTwo() {
           </div>
         </div>
       </div>
-
-      <VideoPopup>
-        <div className="app-video">
-          <div
-            className="play-video-btn video-btn"
-            data-video="#"
-          >
-            <div className="icon">
-              <i className="ti ti-player-play-filled"></i>
-            </div>
-            <h5 className="mb-0">Voir l’app en action</h5>
-          </div>
-        </div>
-      </VideoPopup>
     </section>
   );
 
 }
+
