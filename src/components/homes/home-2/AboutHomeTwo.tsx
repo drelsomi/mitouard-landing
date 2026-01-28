@@ -40,11 +40,6 @@ export default function AboutHomeTwo() {
                 <span>Abonnement premium annuel, 1re année offerte</span>
               </li>
             </ul>
-
-            <Link href="#" className="btn btn-primary">
-              <span>Découvrir l'app <i className="ti ti-arrow-up-right"></i></span>
-              <span>Découvrir l'app <i className="ti ti-arrow-up-right"></i></span>
-            </Link>
           </div>
 
           {/* <!-- About Image --> */}
