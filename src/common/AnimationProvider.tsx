@@ -20,11 +20,14 @@ export default function AnimationProvider() {
  
     let smoother: ScrollSmoother; 
     let ctx: gsap.Context;
+    const isIOS =
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
     const initAnimations = () => {
       ctx = gsap.context(() => {
-        // Initialize ScrollSmoother only if it doesn't exist
-        if (!ScrollSmoother.get()) {
+        // Disable ScrollSmoother on iOS to avoid Safari scroll clipping issues
+        if (!isIOS && !ScrollSmoother.get()) {
           smoother = ScrollSmoother.create({
             smooth: 1.75,
             effects: true,
