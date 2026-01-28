@@ -41,7 +41,7 @@ export default function AboutHomeOne() {
                 </li>
               </ul>
               {/* <!-- Button --> */}
-              <Link href="/about-us" className="btn btn-primary">
+              <Link href="#" className="btn btn-primary">
                 <span>More About Us <i className="ti ti-arrow-up-right"></i></span>
                 <span>More About Us <i className="ti ti-arrow-up-right"></i></span>
               </Link>
@@ -54,3 +54,4 @@ export default function AboutHomeOne() {
     </section>
   )
 }
+
