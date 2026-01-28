@@ -34,7 +34,7 @@ export default function HeroHomeThree() {
                   <span>Get Started Now <i className="ti ti-arrow-up-right"></i></span>
                   <span>Get Started Now <i className="ti ti-arrow-up-right"></i></span>
                 </Link>
-                <Link href="/about-us" className="btn btn-outline-dark fadeInUp" data-delay="0.8">
+                <Link href="#" className="btn btn-outline-dark fadeInUp" data-delay="0.8">
                   <span>Learn More <i className="ti ti-arrow-up-right"></i></span>
                   <span>Learn More <i className="ti ti-arrow-up-right"></i></span>
                 </Link>

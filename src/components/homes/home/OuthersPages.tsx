@@ -76,9 +76,9 @@ export default function OuthersPages() {
           {/* <!-- Slide --> */}
           <SwiperSlide className="swiper-slide">
             <div className="homepage-card">
-              <Image className="w-auto h-auto" src="/assets/img/demo-img/About-Us.jpg" alt="" width={1920} height={1080} priority/>
+              <Image className="w-auto h-auto" src="/assets/img/demo-img#.jpg" alt="" width={1920} height={1080} priority/>
               {/* <!-- Link --> */}
-              <Link href="/about-us" target="_blank" className="shadow-lg">
+              <Link href="#" target="_blank" className="shadow-lg">
                 <i className="ti ti-arrow-up-right"></i>
               </Link>
             </div>

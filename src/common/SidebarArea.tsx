@@ -127,7 +127,7 @@ export default function SidebarArea() {
           <div className="divider-sm"></div>
 
           {/* Get Started Button */}
-          <Link href="/about-us" className="btn btn-primary w-100">
+          <Link href="#" className="btn btn-primary w-100">
             <span>
               Get Started Now <i className="ti ti-arrow-up-right"></i>
             </span>

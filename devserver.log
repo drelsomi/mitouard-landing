@@ -1114,7 +1114,7 @@ src/styles/index.scss 4:9  root stylesheet
 
 
 
- GET /about-us 200 in 350ms (compile: 313ms, render: 37ms)
+ GET # 200 in 350ms (compile: 313ms, render: 37ms)
  ⚠ ./SOMI IT/LE MITOUARD/startix-nextjs/src/styles/index.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 3, column 8 of file:///Users/chandrelsomi/SOMI%20IT/LE%20MITOUARD/startix-nextjs/src/styles/index.scss:3:8:
@@ -1129,7 +1129,7 @@ src/styles/index.scss 4:9  root stylesheet
 
 
  ✓ Compiled in 82ms
- GET /about-us 200 in 399ms (compile: 6ms, render: 394ms)
+ GET # 200 in 399ms (compile: 6ms, render: 394ms)
  ⚠ ./SOMI IT/LE MITOUARD/startix-nextjs/src/styles/index.scss
 Issue while running loader
 SassWarning: Deprecation Warning on line 3, column 8 of file:///Users/chandrelsomi/SOMI%20IT/LE%20MITOUARD/startix-nextjs/src/styles/index.scss:3:8:

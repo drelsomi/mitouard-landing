@@ -32,7 +32,7 @@ const menu_data: MenuDataType[] = [
   },
   {
     title: "About Us",
-    link: "/about-us",
+    link: "#",
     has_dropdown: false,
   },
   {
@@ -42,7 +42,7 @@ const menu_data: MenuDataType[] = [
     submenu: [
       {
         title: "About Us",
-        link: "/about-us",
+        link: "#",
         has_inner_dropdown: false,
       },
       {
