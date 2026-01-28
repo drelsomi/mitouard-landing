@@ -52,7 +52,7 @@ export default function FunfactHomeTwo() {
         <div className="app-video">
           <div
             className="play-video-btn video-btn"
-            data-video="https://youtu.be/VCPGMjCW0is"
+            data-video="#"
           >
             <div className="icon">
               <i className="ti ti-player-play-filled"></i>
@@ -63,4 +63,5 @@ export default function FunfactHomeTwo() {
       </VideoPopup>
     </section>
   );
+
 }
