@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import ThemeProvider from "@/common/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "Startix - Multipurpose SaaS Landing Next JS Template",
-  description: "Modern web template built with Next.js and TypeScript",
-  keywords: ["Next.js", "React", "Template", "Startix"],
+  title: "Le Mitouard APP",
+  description: "Votre bibliothèque juridique, fiscale et sociale ",
+  keywords: ["Next.js", "React", "Template", "Mitouard"],
 };
 
 export default function RootLayout({
