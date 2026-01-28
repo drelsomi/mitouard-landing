@@ -24,6 +24,17 @@ export default function AnimationProvider() {
       /iPad|iPhone|iPod/.test(navigator.userAgent) ||
       (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
 
+    if (isIOS) {
+      document.documentElement.classList.add("ios-scroll-fix");
+      document.body.style.overflow = "auto";
+      document.documentElement.style.overflow = "auto";
+      return () => {
+        document.documentElement.classList.remove("ios-scroll-fix");
+        document.body.style.overflow = "";
+        document.documentElement.style.overflow = "";
+      };
+    }
+
     const initAnimations = () => {
       ctx = gsap.context(() => {
         // Disable ScrollSmoother on iOS to avoid Safari scroll clipping issues

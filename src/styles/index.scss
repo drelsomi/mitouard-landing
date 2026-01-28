@@ -3,6 +3,22 @@
 @import "../../public/assets/css/flaticon.css";
 @import "../../public/assets/css/tabler-icons.min.css";
 
+/* iOS scroll fix: disable GSAP smooth wrapper behavior and smooth scrolling */
+html.ios-scroll-fix,
+html.ios-scroll-fix body {
+  scroll-behavior: auto;
+  height: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+html.ios-scroll-fix #smooth-wrapper,
+html.ios-scroll-fix #smooth-content {
+  height: auto !important;
+  transform: none !important;
+  will-change: auto !important;
+}
+
 /* Override logo size for header style-two */
 .header-section.style-two .navbar-brand img.d-none.d-sm-block {
   height: 48px !important;
