@@ -28,8 +28,7 @@ export default function CtaHomeTwo() {
                 </a>
                 <a
                   href={apkUrl}
-                  target="_blank"
-                  rel="noreferrer"
+                  download
                   className="btn-download fadeInUp"
                   data-delay="0.9"
                   style={{ backgroundColor: "#111", color: "#fff", borderColor: "#111" }}
