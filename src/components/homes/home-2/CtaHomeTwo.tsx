@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function CtaHomeTwo() {
-  const apkUrl = "https://somi-it.app/assets/app-release.apk";
+  const apkUrl = "/assets/app-release.apk";
 
   return (
     <section className="download-section bg-primary">
