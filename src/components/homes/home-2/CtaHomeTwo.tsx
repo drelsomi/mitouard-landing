@@ -17,7 +17,13 @@ export default function CtaHomeTwo() {
               <p className="mb-5 text-white heading-line" data-delay="0.7">Téléchargez l’application mobile & tablette, synchronisez vos documents, puis consultez-les en mode offline. L’année 1 est offerte pour vos clients premium.</p>
               {/* <!-- Download App Button --> */}
               <div className="d-flex flex-wrap align-items-center gap-4">
-                <a href="#" className="btn-download active fadeInUp" data-delay="0.8">
+                <button
+                  type="button"
+                  className="btn-download active fadeInUp"
+                  data-delay="0.8"
+                  aria-disabled="true"
+                  style={{ cursor: "not-allowed" }}
+                >
                   <div>
                     <i className="ti ti-brand-apple"></i>
                   </div>
@@ -25,10 +31,12 @@ export default function CtaHomeTwo() {
                     <span className="sub-text">Version iOS</span>
                     <p className="mb-0">Bientôt disponible</p>
                   </div>
-                </a>
+                </button>
                 <a
                   href={apkUrl}
                   download
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn-download fadeInUp"
                   data-delay="0.9"
                   style={{ backgroundColor: "#111", color: "#fff", borderColor: "#111" }}
