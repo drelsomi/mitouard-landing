@@ -29,3 +29,15 @@ html.ios-scroll-fix #smooth-content {
   height: 44px !important;
   width: auto !important;
 }
+
+/* Ensure mobile click targets remain tappable in download CTA */
+.download-section .btn-download {
+  position: relative;
+  z-index: 5;
+  pointer-events: auto;
+}
+
+.download-section .download-app-img,
+.download-section .download-app-img * {
+  pointer-events: none;
+}
